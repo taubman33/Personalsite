@@ -1,38 +1,77 @@
 .App {
   text-align: center;
+  background-color: #020E76;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+  padding:5px;
+  margin-bottom: -30px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.main {
+background-color: #FCFBE6;
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+text-align: center;
+background-color: #020E76;
+padding: 10px
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  color: #FFC330;
+  font-size: 55px;
+  font-weight: 200;
+  letter-spacing: 15px;
+}
+
+h2{
+  color: black;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+
+h4{
+  color: #FFC330; 
+  font-weight: 200;
+  font-size: 18px;
+}
+
+img {
+  width: 60%;
+}
+
+
+.main{
+margin-bottom: 10rem;
+}
+
+.painting-container{
+  width: 40%;
+}
+
+/* .paintings {
+  width: 40%
+} */
+
+.resume-container {
+ margin-top: 40px;
+ height: 60%;
+ margin-bottom: 2rem;
+
 }

@@ -26,7 +26,7 @@ function App() {
 
         <div className="main">
         <Main />
-        <Switch>          
+        {/* <Switch>          
 <Route exact path ='/Art' component= { () => <Art/>}/>
 <Route exact path ='/Resume' component= { () => <Resume/>}/>
 <Route exact path ='/AboutMe' component= { () => <AboutMe/>}/>
@@ -34,7 +34,7 @@ function App() {
 <Route exact path ='/Projects' component= { () => <Projects/>}/>
 
 
-       </Switch>
+       </Switch>  */}
         </div>
 
 

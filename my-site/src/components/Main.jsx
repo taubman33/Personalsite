@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { BrowserRouter as  Router, Route, Switch, Link } from "react-router-dom";
 import Resume from './Resume'
-import Art from './Art'
 import AboutMe from './AboutMe'
-import Music from './Music'
 import Projects from './Projects'
+
+// import Art from './Art'
+// import Music from './Music'
 
 function Main () {
 return (
@@ -13,9 +14,12 @@ return (
 
 <AboutMe />
 <Resume />
-<Art />
-<Music />
+
 <Projects />
+
+{/* 
+<Art />
+<Music /> */}
 
 </div>
 
