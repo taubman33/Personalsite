@@ -9,8 +9,8 @@ import Projects from './Projects'
 
 function Main () {
 return (
-<div className="main">
-
+<div className="main-container">
+ <div className="main">
 
 <AboutMe />
 <Resume />
@@ -23,6 +23,7 @@ return (
 
 </div>
 
+</div>
 
 )
 }

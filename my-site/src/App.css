@@ -4,6 +4,11 @@
 
 }
 
+.aboutMe {
+  margin: 3rem;
+}
+
+
 header{
   padding:5px;
   margin-bottom: -30px
@@ -11,9 +16,8 @@ header{
 
 
 .main {
+margin-top: 1rem;
 background-color: #FCFBE6;
-
-
 }
 
 .navbar {
@@ -28,7 +32,10 @@ bottom: 0;
 width: 100%;
 text-align: center;
 background-color: #020E76;
-padding: 10px
+padding: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
 
 }
 

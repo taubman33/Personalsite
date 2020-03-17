@@ -24,7 +24,7 @@ function App() {
           </header>
 
 
-        <div className="main">
+        <div className="App-main">
         <Main />
         {/* <Switch>          
 <Route exact path ='/Art' component= { () => <Art/>}/>
