@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #020E76;
+  background-color: #FCFBE6;
 
 }
 
@@ -10,6 +10,7 @@
 
 
 header{
+  background-color: #020E76;
   padding:5px;
   margin-bottom: -30px
 }
@@ -17,7 +18,7 @@ header{
 
 .main {
 margin-top: 1rem;
-background-color: #FCFBE6;
+
 }
 
 .navbar {
@@ -53,6 +54,13 @@ h2{
 }
 
 
+
+h3{
+  color: #FFC330; 
+  font-weight: 200;
+  font-size: 24px;
+}
+
 h4{
   color: #FFC330; 
   font-weight: 200;
@@ -64,6 +72,11 @@ img {
 }
 
 
+
+.linkIcon {
+  width: 20%
+}
+
 .main{
 margin-bottom: 10rem;
 }
@@ -72,9 +85,7 @@ margin-bottom: 10rem;
   width: 40%;
 }
 
-/* .paintings {
-  width: 40%
-} */
+
 
 .resume-container {
  margin-top: 40px;

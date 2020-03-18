@@ -4,24 +4,16 @@ import Resume from './Resume'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
 
-// import Art from './Art'
-// import Music from './Music'
+
 
 function Main () {
 return (
 <div className="main-container">
- <div className="main">
-
-<AboutMe />
-<Resume />
-
-<Projects />
-
-{/* 
-<Art />
-<Music /> */}
-
-</div>
+            <div className="main">
+            <AboutMe />
+            <Resume />
+            <Projects />
+            </div>
 
 </div>
 

@@ -1,10 +1,10 @@
 import React from 'react';
-import Cityscape from './assets/Cityscape.jpg'
-import Waveface from './assets/Waveface.jpg'
-import DelraySharks from './assets/DelraySharks.jpg'
-import Oceanscape1 from './assets/Oceanscape1.jpg'
-import Hawkface from './assets/Hawkface.jpg'
-import TrumpetBlue from './assets/TrumpetBlue.jpg'
+// import Cityscape from './assets/Cityscape.jpg'
+// import Waveface from './assets/Waveface.jpg'
+// import DelraySharks from './assets/DelraySharks.jpg'
+// import Oceanscape1 from './assets/Oceanscape1.jpg'
+// import Hawkface from './assets/Hawkface.jpg'
+// import TrumpetBlue from './assets/TrumpetBlue.jpg'
 
 function Art () {
 return (
