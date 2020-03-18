@@ -8,7 +8,7 @@ return (
 
             <div className= "resume">
 
-            <img src={Resume1} alt="resume" />
+            <img src={Resume1} alt="resume-picture" />
 
             </div>
 

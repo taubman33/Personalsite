@@ -11,7 +11,7 @@
 }
 
 .footer {
-  position: fixed;
+  
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -44,6 +44,11 @@
     width: 40%;
   }
   
+
+.Projects{
+margin-bottom: 3rem;
+
+}
   
   .resume-container {
     margin-top: 40px;
@@ -104,7 +109,7 @@ img {
 }
 
 
-.ProjectIcon:hover, .linkIcon:hover {
+.ProjectIcon:hover, .linkIcon:hover, .resume:hover {
   transform: scale(1.2, 1.2)
 }
 
