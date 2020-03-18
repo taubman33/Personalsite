@@ -8,8 +8,10 @@ import Projects from './Projects'
 
 function Main () {
 return (
+
 <div className="main-container">
-            <div className="main">
+    
+<div className="main">
             <AboutMe />
             <Resume />
             <Projects />

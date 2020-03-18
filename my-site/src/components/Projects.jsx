@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import SW from './assets/Surgewindow.jpg'
 
 function Projects () {
 return (
@@ -7,7 +7,11 @@ return (
 
 
     <h2> Projects coming!</h2>
-  <h2> https://stellar-travel.surge.sh/</h2>
+  
+
+ <a href="https://stellar-travel.surge.sh/">
+  <img src={SW} className="ProjectIcon" />
+</a>
 
 
 </div>

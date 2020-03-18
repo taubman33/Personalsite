@@ -1,3 +1,5 @@
+/* Site components */
+
 .App {
   text-align: center;
   background-color: #FCFBE6;
@@ -8,88 +10,102 @@
   margin: 3rem;
 }
 
-
-header{
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
   background-color: #020E76;
-  padding:5px;
-  margin-bottom: -30px
-}
-
-
-.main {
-margin-top: 1rem;
-
-}
-
-.navbar {
+  padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
+  
+  }
 
-.footer {
-position: fixed;
-bottom: 0;
-width: 100%;
-text-align: center;
-background-color: #020E76;
-padding: 10px;
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
+ header{
+    background-color: #020E76;
+    padding:5px;
+    margin-bottom: -30px
+  }
+   
+  .main {
+  margin-top: 1rem;
+  
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .painting-container{
+    width: 40%;
+  }
+  
+  
+  .resume-container {
+    margin-top: 40px;
+    height: 60%;
+    margin-bottom: 2rem;
+   
+   }
+   
 
-}
 
-h1 {
-  color: #FFC330;
-  font-size: 55px;
-  font-weight: 200;
-  letter-spacing: 15px;
-}
+/* Fonts  */
+  h1 {
+    color: #FFC330;
+    font-size: 55px;
+    font-weight: 200;
+    letter-spacing: 15px;
+  }
+  
+  h2{
+    color: black;
+    font-weight: 200;
+    font-size: 24px;
+  }
+  
+  
+  h3{
+    color: #FFC330; 
+    font-weight: 200;
+    font-size: 24px;
+  }
+  
+  h4{
+    color: #FFC330; 
+    font-weight: 200;
+    font-size: 18px;
+  }
+  
 
-h2{
-  color: black;
-  font-weight: 200;
-  font-size: 24px;
-}
 
 
 
-h3{
-  color: #FFC330; 
-  font-weight: 200;
-  font-size: 24px;
-}
-
-h4{
-  color: #FFC330; 
-  font-weight: 200;
-  font-size: 18px;
-}
 
 img {
   width: 60%;
 }
 
 
-
 .linkIcon {
   width: 20%
 }
 
-.main{
-margin-bottom: 10rem;
+
+
+
+
+.ProjectIcon {
+  margin-bottom: 2rem;
 }
 
-.painting-container{
-  width: 40%;
+
+.ProjectIcon:hover, .linkIcon:hover {
+  transform: scale(1.2, 1.2)
 }
 
 
-
-.resume-container {
- margin-top: 40px;
- height: 60%;
- margin-bottom: 2rem;
-
-}
