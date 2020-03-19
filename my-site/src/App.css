@@ -19,8 +19,7 @@
   margin-bottom: -2em;
 }
 
-.footer {
-  
+.footer { 
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -28,23 +27,22 @@
   padding: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  
+  justify-content: center;
   }
 
  header{
-    background-color: #4a73b1;
-    padding:5px;
+  background-color: #4a73b1;
+  padding: 1rem;
     margin-bottom: -30px
   }
-   
+
+
 .main {
   margin-top: 1rem;
   margin-bottom: -1rem;
   }
   
 .navbar {
-    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -60,7 +58,6 @@
   
 .Projects{
 margin-bottom: 3rem;
-
 }
   
 .project-desc {
@@ -68,6 +65,9 @@ margin-bottom: 3rem;
   display: inline-flex;
   justify-content: space-around;
 }
+
+
+
 
 .resume-container {
     margin-top: 40px;
@@ -91,11 +91,11 @@ img {
 }
 
 .pic-container {
-
   width: 30%;
   margin-bottom: 2rem;
  display: inline-flex;
  justify-content: space-around;
+ 
 }
 
 
@@ -116,10 +116,10 @@ img {
 h1 {
     color: #92dccd;
     font-size: 65px;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 15px;
   }
-  
+
   h2{
     color: black;
     font-weight: 200;
@@ -129,7 +129,7 @@ h1 {
   
   h3{
     color: #92dccd; 
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 3px;
     font-size: 30px;
   }

@@ -6,9 +6,11 @@ import Navbar from './Nav'
 function Header () {
     return (
 <div className="header">
+
+  <div className="header-container">
 <h1>Jeremy Taubman</h1>
 <h3>NYC Software Engineer</h3>
-
+</div>
   <Navbar />
   
 
