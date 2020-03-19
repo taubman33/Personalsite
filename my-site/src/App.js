@@ -26,15 +26,7 @@ function App() {
 
         <div className="App-main">
         <Main />
-        {/* <Switch>          
-<Route exact path ='/Art' component= { () => <Art/>}/>
-<Route exact path ='/Resume' component= { () => <Resume/>}/>
-<Route exact path ='/AboutMe' component= { () => <AboutMe/>}/>
-<Route exact path ='/Music' component= { () => <Music/>}/>
-<Route exact path ='/Projects' component= { () => <Projects/>}/>
-
-
-       </Switch>  */}
+ 
         </div>
 
 
@@ -45,7 +37,17 @@ function App() {
           
 
         </div>
- 
+
+        
+        <Switch>          
+<Route exact path ='/Art' component= { () => <Art/>}/>
+<Route exact path ='/Resume' component= { () => <Resume/>}/>
+<Route exact path ='/AboutMe' component= { () => <AboutMe/>}/>
+<Route exact path ='/Music' component= { () => <Music/>}/>
+<Route exact path ='/Projects' component= { () => <Projects/>}/>
+
+
+       </Switch> 
         
  </Router>
 
