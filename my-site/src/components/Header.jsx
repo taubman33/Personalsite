@@ -8,6 +8,7 @@ function Header () {
     return (
 <div className="header">
 <h1>Jeremy Taubman</h1>
+<h3>NYC Based Software Engineer</h3>
 
   <Nav />
   

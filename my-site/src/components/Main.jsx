@@ -15,6 +15,12 @@ return (
             <AboutMe />
             <Resume />
             <Projects />
+
+         
+{/* <Route exact path ='/Resume' component= { () => <Resume/>}/>
+<Route exact path ='/AboutMe' component= { () => <AboutMe/>}/>
+<Route exact path ='/Projects' component= { () => <Projects/>}/>   */}
+        
             </div>
 
 </div>
