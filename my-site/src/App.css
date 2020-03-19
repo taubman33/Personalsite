@@ -89,10 +89,6 @@ margin-bottom: 3rem;
   }
   
 
-
-
-
-
 img {
   width: 60%;
 }
@@ -103,7 +99,9 @@ img {
 }
 
 
-
+.pic-container {
+  height: 40%;
+}
 
 
 .ProjectIcon {
@@ -111,7 +109,7 @@ img {
 }
 
 
-.ProjectIcon:hover, .linkIcon:hover, .resume:hover {
+.ProjectIcon:hover, .linkIcon:hover {
   transform: scale(1.2, 1.2)
 }
 

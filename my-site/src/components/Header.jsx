@@ -1,7 +1,6 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import Resume from './Resume'
-import Nav from './Nav'
+import React from "react";
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom"
+import Navbar from './Nav'
 
 
 function Header () {
@@ -10,7 +9,7 @@ function Header () {
 <h1>Jeremy Taubman</h1>
 <h3>NYC Based Software Engineer</h3>
 
-  <Nav />
+  <Navbar />
   
 
 

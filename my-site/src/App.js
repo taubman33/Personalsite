@@ -1,18 +1,40 @@
-import React from "react";
+import React, { Component } from "react";
 import { BrowserRouter as  Router, Route, Switch, Link } from "react-router-dom";
 import './App.css';
 import Header from './components/Header'
+import AboutMe from './components/AboutMe'
 import Main from './components/Main'
 import Footer from './components/Footer'
-import Art from './components/Art'
-import AboutMe from './components/AboutMe'
+import Home from './components/Home'
 import Resume from './components/Resume'
-import Music from './components/Music'
 import Projects from './components/Projects'
 
+const routes = [
+  {
+    path: "/AboutMe",
+    component: AboutMe
+  },
+  {
+    path: "/Projects",
+    component: Projects,
+  
+  },
+  {
+    path: "/AboutMe",
+    component: AboutMe
+  },
+  {
+    path: "/Resume",
+    component: Resume
+  },
+  {
+    path: "/Home",
+    component: Home
+  },
+];
 
-
-function App() {
+class App extends Component {
+  render() {
   return (
 
   <Router> 
@@ -23,10 +45,13 @@ function App() {
           <Header />   
           </header>
 
+    
+
+
 
         <div className="App-main">
-        <Main />
- 
+        <Main
+        />
         </div>
 
 
@@ -43,6 +68,15 @@ function App() {
  </Router>
 
   );
+
+
+  
 }
+
+}
+
+
+
+
 
 export default App;

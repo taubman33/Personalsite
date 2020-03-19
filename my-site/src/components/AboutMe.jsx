@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import ProfPic from './assets/ProfPic.jpg'
 
 function AboutMe () {
 return (
@@ -13,6 +13,11 @@ return (
         Working to bring together my interests in technology and my love for learning, I am seeking a software engineer position where growth, development, and collaboration are valued so that I may let these traits shine.
         </h2>
     </div>
+ 
+    <div className = "pic-container"></div>
+    <img src={ProfPic} alt="prof-picture" />
+
+
 
 </div>
     )
