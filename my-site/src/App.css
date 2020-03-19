@@ -2,12 +2,20 @@
 
 .App {
   text-align: center;
-  background-color: #FCFBE6;
+  background-color: #ffe9ca;
 
+}
+
+.App-main {
+  margin-bottom: 0em;
 }
 
 .aboutMe {
   margin: 3rem;
+}
+
+.city-image {
+  margin-bottom: -2em;
 }
 
 .footer {
@@ -15,7 +23,7 @@
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: #020E76;
+  background-color: #4a73b1;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -24,71 +32,50 @@
   }
 
  header{
-    background-color: #020E76;
+    background-color: #4a73b1;
     padding:5px;
     margin-bottom: -30px
   }
    
-  .main {
+.main {
   margin-top: 1rem;
-  
+  margin-bottom: -1rem;
   }
   
-  .navbar {
+.navbar {
     
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
   
-  .painting-container{
-    width: 40%;
+.painting-container{
+    width: 60%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom:2rem;
   }
   
-
 .Projects{
 margin-bottom: 3rem;
 
 }
   
-  .resume-container {
+.project-desc {
+  width: 65%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.resume-container {
     margin-top: 40px;
     height: 60%;
     margin-bottom: 2rem;
    
    }
+
    
-
-
-/* Fonts  */
-  h1 {
-    color: #FFC330;
-    font-size: 55px;
-    font-weight: 200;
-    letter-spacing: 15px;
-  }
-  
-  h2{
-    color: black;
-    font-weight: 200;
-    font-size: 24px;
-  }
-  
-  
-  h3{
-    color: #FFC330; 
-    font-weight: 200;
-    letter-spacing: 3px;
-    font-size: 24px;
-  }
-  
-  h4{
-    color: #FFC330; 
-    font-weight: 200;
-    font-size: 18px;
-  }
-  
-
 img {
   width: 60%;
 }
@@ -98,9 +85,16 @@ img {
   width: 20%
 }
 
+.aboutMe-Container {
+  text-align: center;
+}
 
 .pic-container {
-  height: 40%;
+
+  width: 30%;
+  margin-bottom: 2rem;
+ display: inline-flex;
+ justify-content: space-around;
 }
 
 
@@ -112,5 +106,39 @@ img {
 .ProjectIcon:hover, .linkIcon:hover {
   transform: scale(1.2, 1.2)
 }
+
+.city {
+  width: 100%;
+}
+
+/* Fonts  */
+h1 {
+    color: #92dccd;
+    font-size: 65px;
+    font-weight: 200;
+    letter-spacing: 15px;
+  }
+  
+  h2{
+    color: black;
+    font-weight: 200;
+    font-size: 30px;
+  }
+  
+  
+  h3{
+    color: #92dccd; 
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 30px;
+  }
+  
+  h4{
+    color: #92dccd; 
+    font-weight: 200;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
 
 

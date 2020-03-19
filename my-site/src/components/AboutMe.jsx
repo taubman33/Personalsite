@@ -14,9 +14,9 @@ return (
         </h2>
     </div>
  
-    <div className = "pic-container"></div>
+    <div className = "pic-container">
     <img src={ProfPic} alt="prof-picture" />
-
+    </div>
 
 
 </div>

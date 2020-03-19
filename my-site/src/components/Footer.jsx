@@ -3,6 +3,7 @@ import { Link, Route } from 'react-router-dom'
 import GH from "./assets/GitHub.png";
 import LI from "./assets/LinkedIn.png"
 
+
 function Footer () {
 return (
 
@@ -13,7 +14,7 @@ return (
 
 
   
- 
+<div className= "footer-links"></div> 
 
 <a href="https://github.com/taubman33">
   <img src={GH} className="linkIcon" />
