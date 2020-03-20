@@ -4,7 +4,7 @@ import ProfPic from './assets/ProfPic.jpg'
 function AboutMe () {
 return (
 <div className= "aboutMe-Container">
-
+ 
     <br />
     <h1> About Me</h1>
     <div className= "aboutMe">

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom'
 import GH from "./assets/GitHub.png";
 import LI from "./assets/LinkedIn.png"
 
