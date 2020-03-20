@@ -98,6 +98,11 @@ img {
  
 }
 
+.prof-pic {
+border-radius: 10px;
+border: 3px solid #4a73b1
+
+}
 
 .ProjectIcon {
   margin-bottom: 2rem;
@@ -140,6 +145,3 @@ h1 {
     font-size: 25px;
     text-decoration: none;
   }
-  
-
-
