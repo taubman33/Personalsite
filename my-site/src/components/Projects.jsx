@@ -6,6 +6,8 @@ import GH from "./assets/GitHub.png";
 
 function Projects () {
 return (
+<div className="project-container">
+
 <div className= "Projects">
 
 <h1>Projects</h1>
@@ -71,6 +73,8 @@ return (
 
 
 <h2> More Projects coming!</h2>
+
+</div>
 
 </div>
     )
