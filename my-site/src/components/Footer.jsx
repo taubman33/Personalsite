@@ -1,6 +1,7 @@
 import React from 'react';
 import GH from "./assets/GitHub.png";
 import LI from "./assets/LinkedIn.png"
+import GM from "./assets/Gmail.png"
 
 
 function Footer () {
@@ -19,7 +20,9 @@ return (
   <img src={GH} className="linkIcon" />
 </a>
 
-<h3> 2020 Jeremy Taubman</h3>
+<a href="mailto:taubman33@gmail.com?subject=JobOpportunity">
+  <img src={GM} className="linkIcon" />
+</a>
 
 
 <a href="https://www.linkedin.com/in/jeremy-taubman-23736460">
