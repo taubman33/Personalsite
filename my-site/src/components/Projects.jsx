@@ -3,11 +3,11 @@ import SW from './assets/Surgewindow.jpg'
 import BU from './assets/BottomsWindow.jpg'
 import FX from './assets/FXDBbanner.jpg'
 import GH from "./assets/GitHub.png";
-import CSSlogo from './assets/Logos/CSS.png'
-import Rails from './assets/Logos/Rails.png'
-import Ruby from './assets/Logos/Ruby.png'
+import CSSlogo from './assets/Logos/css.svg'
+import Rails from './assets/Logos/RailsLogo.svg'
+import Ruby from './assets/Logos/ruby.svg'
 import ReactLogo from './assets/Logos/react.svg'
-import SQL from'./assets/Logos/SQL.jpg'
+import SQL from'./assets/Logos/sql.svg'
 
 function Projects () {
 return (
@@ -17,12 +17,51 @@ return (
 
 <h1>Projects</h1>
 
+
+{/* P4 */}
+
+<h3>FXDB - the Guitar Effects Database </h3>
+
+<div className="project-type">
+<p> For my capstone project at General Assembly I created a full stack application and database of notable guitar effect pedals, also known as 'Stomp Boxes' that are popular with musicians from John Mayer to Jack White.
+        Using a Ruby on Rails backend with a React front end I built up a resource for cover bands and musicians who wanted a streamlined, easy way to search for what specific effect pedals were used on famous songs.
+      </p>   
+      <br/>
+      <p> This project will be re-deployed soon.</p>
+      </div>
+
+      
+      <a href="https://github.com/taubman33/FXDB">
+      <img src={FX} className="ProjectIcon"  alt="fxdb"/>
+      </a>
+      <div className= "project-desc">
+      <a href="https://github.com/taubman33/FXDB">
+          
+          
+          <div className="languageIconContainer">
+          {/* <img src ={CSSlogo} className="linkIcon" />
+           <img src ={ReactLogo} className="linkIcon" />
+           <img src ={SQL} className="linkIcon" /> */}
+           <img src ={Ruby} className="linkIcon" />
+           <img src ={Rails} className="linkIcon" />
+          
+          </div>
+
+          <img src={GH} className="linkIcon" />
+          </a>
+
+       
+          </div>
+          <br></br>
+
+
+
  
 {/* P3     */}
 <h3>Orbitz Travel Mockup Site</h3>
 
 <div className="project-type">
-      <p>For this project we worked in a group of 3, and set to collaborate with the General Assembly's UX class to create a full-stack mock up of an existing travel site. 
+      <p>For this project my class at GA was put into groups of 3, and set to collaborate with the UX class to create a full-stack mock up of an existing travel site. 
           I was responsbile for the Back End where I used SQL to create a database of over 100 flights between 6 different airports. 
           As per request of our UX collaborators, we also added an "Eco-friendly" option, where users would be able to select from filitered flights.</p>  
           </div>   
@@ -32,14 +71,17 @@ return (
       </a>
           <div className= "project-desc">
           <a href="https://github.com/taubman33/Stellar">
+
+          <div className="languageIconContainer">
+          <img src ={CSSlogo} className="linkIcon" />
+           <img src ={ReactLogo} className="linkIcon" />
+           <img src ={SQL} className="linkIcon" />
+          </div>
+
           <img src={GH} className="linkIcon" />
           </a>
 
-          <div className="languageIconContainer">
-          <img src ={CSSlogo} className="languageIcon" />
-           <img src ={ReactLogo} className="languageIcon" />
-
-          </div>
+       
           </div>
           <br></br>
 
@@ -56,32 +98,20 @@ return (
       </a>
           <div className= "project-desc">
           <a href="https://github.com/taubman33/bottomsup">
+
+          <div className="languageIconContainer">
+          <img src ={CSSlogo} className="linkIcon" />
+           <img src ={ReactLogo} className="linkIcon" />
+           <img src ={SQL} className="linkIcon" />
+          </div>
+
           <img src={GH} className="linkIcon" />
           </a>
           </div> 
 
           <br></br>
-{/* P4 */}
-<h3>FXDB - the Guitar Effects Database </h3>
 
-<div className="project-type">
-      <p> For my capstone project at General Assembly I created a full stack application and database of notable guitar effect pedals, also known as 'Stomp Boxes' that are popular with musicians from John Mayer to Jack White.
-        Using a Ruby on Rails backend with a React front end I built up a resource for cover bands and musicians who wanted a streamlined, easy way to search for what specific effect pedals were used on famous songs.
-      </p>
-      </div>
-
-      <a href="https://github.com/taubman33/FXDB">
-      <img src={FX} className="ProjectIcon"  alt="fxdb"/>
-      </a>
-      <div className= "project-desc">
-      <a href="https://github.com/taubman33/FXDB">
-      <img src={GH} className="linkIcon" />
-      </a>
-     </div>
-     <br></br>
  
-
-
 
 <h2> More Projects coming!</h2>
 

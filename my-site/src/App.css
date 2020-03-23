@@ -41,6 +41,20 @@ header{
   }
 
 
+.languageIcon {
+  width: 8%
+  
+}
+
+.languageIconContainer{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    max-width: 60%;
+}
+
+
 .main {
   margin-top: 1rem;
   margin-bottom: -1rem;
@@ -53,6 +67,9 @@ header{
   }
   
 
+
+
+  
 .project-container{
     display: flex;
         justify-content: space-evenly;
@@ -70,19 +87,15 @@ margin-bottom: 3rem;
 }
 
 
-
 .resume-container {
     margin-top: 40px;
     height: 60%;
-    margin-bottom: 2rem;
-   
-   }
-
+    margin-bottom: 2rem;   
+}
    
 img {
   width: 60%;
 }
-
 
 .linkIcon {
   width: 20%
@@ -110,7 +123,6 @@ border: 3px solid #4a73b1
   margin-bottom: 2rem;
 }
 
-
 .ProjectIcon:hover, .linkIcon:hover {
   transform: scale(1.2, 1.2)
 }
@@ -128,20 +140,21 @@ h1 {
   
   
   }
+  
+header h1{
+font-size: 72px;
 
-   .header-title {
+}  
+   
 
-    text-shadow: 0 0 3px #4a73b1;
-  }
-
-  h2{
+h2{
     color: black;
     font-weight: 200;
     font-size: 31px;
   }
   
   
-  h3{
+h3{
     color: #92dccd; 
     font-weight: 300;
     letter-spacing: 3px;
