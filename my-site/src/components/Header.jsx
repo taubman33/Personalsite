@@ -8,7 +8,9 @@ function Header () {
 <div className="header">
 
   <div className="header-container">
+    <div className = "header-title">
 <h1>Jeremy Taubman</h1>
+</div>
 <h3>NYC Software Engineer</h3>
 </div>
   <Navbar />

@@ -30,7 +30,11 @@
   justify-content: center;
   }
 
- header{
+.form-container {
+  margin-top: -2rem;
+}
+
+header{
   background-color: #4a73b1;
   padding: 1rem;
     margin-bottom: -30px
@@ -48,15 +52,8 @@
     justify-content: space-evenly;
   }
   
-.painting-container{
-    width: 60%;
-    display: inline-flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-    margin-bottom:2rem;
-  }
-  
-  .project-container{
+
+.project-container{
     display: flex;
         justify-content: space-evenly;
     }
@@ -71,7 +68,6 @@ margin-bottom: 3rem;
   display: inline-flex;
   justify-content: space-around;
 }
-
 
 
 
@@ -129,6 +125,13 @@ h1 {
     font-size: 65px;
     font-weight: 300;
     letter-spacing: 15px;
+  
+  
+  }
+
+   .header-title {
+
+    text-shadow: 0 0 3px #4a73b1;
   }
 
   h2{
@@ -152,6 +155,9 @@ h1 {
     text-decoration: none;
   }
 
+
+
+  /* Forms */
 
   /* form styles */
   #fs-frm input,
@@ -178,7 +184,7 @@ margin: 0;
 #fs-frm ::placeholder {
 font-size: .825em;
 margin-bottom: .5em;
-padding-top: .2em;
+/* padding-top: .2em; */
 display: flex;
 align-items: baseline;
 }
@@ -198,7 +204,7 @@ margin-bottom: 1.5em;
       background-color: white;
 outline-style: solid;
 outline-width: thin;
-outline-color: gray;
+outline-color: #4a73b1;
 outline-offset: -1px;
 }
 #fs-frm [type="text"],
@@ -226,33 +232,4 @@ appearance: button;
 #fs-frm select {
       text-transform: none;
 }
-#fs-frm [type="checkbox"] {
-      -webkit-appearance: checkbox;
--moz-appearance: checkbox;
-appearance: checkbox;
-display: inline-block;
-width: auto;
-margin: 0 .5em 0 0 !important;
-}
-#fs-frm [type="radio"] {
-      -webkit-appearance: radio;
--moz-appearance: radio;
-appearance: radio;
-}
-/* address, locale */
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-      display: inline;
-}
-#fs-frm fieldset.locale input[name="city"] {
-      width: 52%;
-}
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-      width: 20%;
-}
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"] {
-      margin-right: 3%;
-}
+
