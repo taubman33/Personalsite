@@ -8,17 +8,10 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 const routes = [
-  {
-    path: "/AboutMe",
-    component: AboutMe
-  },
-  {
-    path: "/Projects",
-    component: Projects,
   
-  },
   {
     path: "/AboutMe",
     component: AboutMe
@@ -28,9 +21,13 @@ const routes = [
     component: Resume
   },
   {
-    path: "/Home",
-    component: Home
+    path: "/Projects",
+    component: Projects
   },
+  {
+    path: "/Contact",
+    component: Contact
+  }
 ];
 
 class App extends Component {
