@@ -3,6 +3,11 @@ import SW from './assets/Surgewindow.jpg'
 import BU from './assets/BottomsWindow.jpg'
 import FX from './assets/FXDBbanner.jpg'
 import GH from "./assets/GitHub.png";
+import CSSlogo from './assets/Logos/CSS.png'
+import Rails from './assets/Logos/Rails.png'
+import Ruby from './assets/Logos/Ruby.png'
+import ReactLogo from './assets/Logos/react.svg'
+import SQL from'./assets/Logos/SQL.jpg'
 
 function Projects () {
 return (
@@ -29,6 +34,12 @@ return (
           <a href="https://github.com/taubman33/Stellar">
           <img src={GH} className="linkIcon" />
           </a>
+
+          <div className="languageIconContainer">
+          <img src ={CSSlogo} className="languageIcon" />
+           <img src ={ReactLogo} className="languageIcon" />
+
+          </div>
           </div>
           <br></br>
 
