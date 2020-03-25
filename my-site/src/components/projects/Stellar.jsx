@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { BrowserRouter as Link} from 'react-router-dom'
 import SW from '../assets/Surgewindow.jpg'
 import CSSlogo from '../assets/Logos/css.svg'
 import SQL from'../assets/Logos/sql.svg'
@@ -10,7 +10,7 @@ import GH from "../assets/GitHub.png";
 function Stellar () {
 return (
 
-    <div id="slide-2">
+    <div className="Project-card">
         <h3>Orbitz Travel Mockup Site</h3>
 
         <div className="project-type">
@@ -39,6 +39,8 @@ return (
             </a>
             </div>
 
+
+            <Link to='/Projects' className='nav-link'> <h2> Back to Projects</h2></Link>
         
            
 

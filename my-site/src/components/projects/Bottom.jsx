@@ -1,10 +1,10 @@
 import React from 'react';
-
+import { BrowserRouter as Link} from 'react-router-dom'
 import BU from '../assets/BottomsWindow.jpg'
 import CSSlogo from '../assets/Logos/css.svg'
 import ReactLogo from '../assets/Logos/react.svg'
 import SQL from'../assets/Logos/sql.svg'
-// import GH from "./assets/GitHub.png";
+import GH from "../assets/GitHub.png";
 
 function Bottom () {
 return (
@@ -29,9 +29,12 @@ return (
                             </div>
 
                             <a href="https://github.com/taubman33/bottomsup">
-                            {/* <img src={GH} className="linkIcon" /> */}
+                            <img src={GH} className="linkIcon" />
                             </a>
                             </div> 
+
+
+            <Link to='/Projects' className='nav-link'> <h2> Back to Projects</h2></Link>
                             </div>
     
 )

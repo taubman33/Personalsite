@@ -1,24 +1,34 @@
 import React from 'react';
+import{ BrowserRouter as Route, Link } from 'react-router-dom'
 import SW from './assets/Surgewindow.jpg'
 import BU from './assets/BottomsWindow.jpg'
 import FX from './assets/FXDBbanner.jpg'
 import GH from "./assets/GitHub.png";
-import CSSlogo from './assets/Logos/css.svg'
-import Rails from './assets/Logos/RailsLogo.svg'
-import Ruby from './assets/Logos/ruby.svg'
-import ReactLogo from './assets/Logos/react.svg'
-import SQL from'./assets/Logos/sql.svg'
+import CW from './assets/ComedWindow.png';
+// import CSSlogo from './assets/Logos/css.svg'
+// import Rails from './assets/Logos/RailsLogo.svg'
+// import Ruby from './assets/Logos/ruby.svg'
+// import ReactLogo from './assets/Logos/react.svg'
+// import SQL from'./assets/Logos/sql.svg'
 
 
-import Bottom from './projects/Bottom'
-import Fxdb from './projects/Fxdb'
-import Stellar from './projects/Stellar'
+import Bottom from './projects/Bottom';
+import Fxdb from './projects/Fxdb';
+import Stellar from './projects/Stellar';
+import Comedian from './projects/Comedian';
+
+
 
 function Projects () {
 return (
 
    <div className="project-container">
- 
+         <Route exact path ="/Projects/Fxdb" component={Fxdb}/>
+            <Route exact path ="/Projects/Stellar" component={Stellar}/>
+            <Route exact path="/Projects/Bottom"component={Bottom}/>
+            <Route exact path="/Projects/Comedian"component={Comedian}/>
+
+
         <div className= "Projects">
         <h1>Projects</h1>
 
@@ -26,35 +36,54 @@ return (
                     <div className= "project-links"> 
 
 
-                <a href="#slide-1"><h3>FXDB</h3></a>
-                <a href="#slide-2"><h3>Stellar</h3></a>
-                <a href="#slide-3"><h3>Bottoms Up</h3></a>
-                </div>
-
         {/* P4 */}
-        <div id="slide-1">   
-        <h3>FXDB - the Guitar Effects Database </h3>
+        <div id="project-window">
+        <h2>FXDB</h2>
+        <Link to='/Projects/Fxdb' className='nav-link'>
+        <img src={FX} />
+
+        </Link>
         </div>
 
         
         {/* P3     */}
-        <div id="slide-2">
-        <h3>Orbitz Travel Mockup Site</h3>
+        <div id="project-window">
+        <h2>Stellar</h2>
+       
+        <Link to='/Projects/Stellar' className='nav-link'>
+        <img src={SW} />
+
+        </Link>
         </div>
 
 
 
-                    {/* P2 */}
-                    <div id="slide-3">
-                    <h3>React Cocktail Recipe and Information App</h3>
-                    </div>
+        {/* P2 */}
+       
+        <div id="project-window">
+        <h2>Bottoms Up!</h2>
+        <Link to='/Projects/Bottoms' className='nav-link'>
+        <img src={BU} />
+        </Link>
+        </div>
 
+
+        {/* P1 */}
         
+        <div id="project-window">
+        <h2>Everyone's A Comedian!</h2>
+        <Link to='/Projects/Comedian' className='nav-link'>
+        <img src={CW} />
+        </Link>
+        </div>
+        
+       
+
+        </div>
+
 
         <h2> More Projects coming!</h2>
-
         </div>
-
     </div>
 
     )

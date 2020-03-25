@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { BrowserRouter as Link} from 'react-router-dom'
 import FX from '../assets/FXDBbanner.jpg';
 import CSSlogo from '../assets/Logos/css.svg';
 import Rails from '../assets/Logos/RailsLogo.svg';
@@ -45,6 +45,10 @@ return (
 
             
                 </div>
+
+
+  <Link to='/Projects' className='nav-link'> <h2> Back to Projects</h2></Link>
+
  </div>       
 
 
