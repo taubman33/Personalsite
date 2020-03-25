@@ -3,6 +3,7 @@
 .App {
   text-align: center;
   background-color: #ffe9ca;
+  scroll-behavior: smooth;
 
 }
 
@@ -14,9 +15,17 @@
   margin: 3rem;
 }
 
+.aboutMe-Container {
+  text-align: center;
+}
+
 .city-image {
   width:100%;
   margin-bottom: -2em;
+}
+
+.city {
+  width: 100%;
 }
 
 .footer { 
@@ -38,15 +47,18 @@ header{
   background-color: #4a73b1;
   padding: 1rem;
     margin-bottom: -30px
-  }
+}
 
+img {
+  width: 60%;
+}
 
 .languageIcon {
   width: 8%
   
 }
 
-.languageIconContainer{
+.languageIconContainer {
   display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -54,55 +66,20 @@ header{
     max-width: 60%;
 }
 
+.linkIcon {
+  width: 20%
+}
 
 .main {
   margin-top: 1rem;
   margin-bottom: -1rem;
-  }
+
+}
   
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-  }
-  
-
-
-
-  
-.project-container{
-    display: flex;
-        justify-content: space-evenly;
-    }
-
-.Projects{
-width: 80%;
-margin-bottom: 3rem;
-}
-  
-.project-desc {
-  width: 65%;
-  display: inline-flex;
-  justify-content: space-around;
-}
-
-
-.resume-container {
-    margin-top: 40px;
-    height: 60%;
-    margin-bottom: 2rem;   
-}
-   
-img {
-  width: 60%;
-}
-
-.linkIcon {
-  width: 20%
-}
-
-.aboutMe-Container {
-  text-align: center;
 }
 
 .pic-container {
@@ -114,22 +91,48 @@ img {
 }
 
 .prof-pic {
-border-radius: 10px;
-border: 3px solid #4a73b1
+  border-radius: 10px;
+  border: 5px solid #4a73b1
+  }
+  
+.ProjectIcon {
+    margin-bottom: 2rem;
+  }
+  
+.project-container{
+    display: flex;
+        justify-content: space-evenly;
+        
+}
+  
+.project-desc {
 
+  display: inline-flex;
+  justify-content: space-around;
+  width: 60%;
 }
 
-.ProjectIcon {
-  margin-bottom: 2rem;
+.project-links { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Projects{
+    width: 80%;
+    margin-bottom: 3rem;
+}
+
+.resume-container {
+    margin-top: 40px;
+    height: 60%;
+    margin-bottom: 2rem;   
 }
 
 .ProjectIcon:hover, .linkIcon:hover {
   transform: scale(1.2, 1.2)
 }
 
-.city {
-  width: 100%;
-}
 
 /* Fonts  */
 h1 {
@@ -145,7 +148,6 @@ header h1{
 font-size: 72px;
 
 }  
-   
 
 h2{
     color: black;
@@ -153,12 +155,11 @@ h2{
     font-size: 31px;
   }
   
-  
 h3{
     color: #92dccd; 
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 38px;
   }
   
   h4{
@@ -167,8 +168,6 @@ h3{
     font-size: 25px;
     text-decoration: none;
   }
-
-
 
   /* Forms */
 
@@ -180,9 +179,9 @@ h3{
   #fs-frm optgroup,
   #fs-frm label,
 #fs-frm #card-element:disabled {
-      font-family: inherit;
+
 font-size: 100%;
-color: inherit;
+
 border: none;
 border-radius: 0;
 display: block;
@@ -245,4 +244,3 @@ appearance: button;
 #fs-frm select {
       text-transform: none;
 }
-

@@ -22,19 +22,19 @@ export default function Contact() {
               method="post">
 
             <fieldset id="fs-frm-inputs">
-                <label for="full-name">Full Name</label>
+                <label for="full-name"><h3>Full Name</h3></label>
                 <input type="text" 
                        name="name" 
                        id="full-name"
                        placeholder="First and Last" 
                        required=""/>
 
-                    <label for="email-address">Email Address</label>
+                    <label for="email-address"><h3>Email Address</h3></label>
 
                     
                     <input type="email" name="_replyto" id="email-address" placeholder="Please enter your email here..." required=""/>
-                        <label for="message">Message</label>
-                        <textarea rows="5" name="message" id="message" placeholder="Please enter message here..." required=""></textarea>
+                        <label for="message"><h3>Message</h3></label>
+                        <textarea rows="8" name="message" id="message" placeholder="Please enter message here..." required=""></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
         </fieldset>
                         <input type="submit" value="Submit"/>
