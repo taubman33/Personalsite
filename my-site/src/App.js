@@ -1,14 +1,21 @@
 import React, { Component } from "react";
 import { BrowserRouter as  Router, Route, Switch, Link } from "react-router-dom";
 import './App.css';
-import Header from './components/Header'
-import AboutMe from './components/AboutMe'
+import Header from './components/Header' 
 import Main from './components/Main'
 import Footer from './components/Footer'
-import Home from './components/Home'
+
+
+import AboutMe from './components/AboutMe'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+
+import Stellar from './components/projects/Stellar'
+import Fxdb from './components/projects/Fxdb'
+import Bottom from './components/projects/Bottom'
+import Comedian from './components/projects/Comedian'
+
 
 const routes = [
   
@@ -27,6 +34,22 @@ const routes = [
   {
     path: "/Contact",
     component: Contact
+  },
+  {
+    path: "/Projects/Stellar",
+    component: Stellar
+  },
+  {
+    path: "/Projects/Fxdb",
+    component: Projects
+  },
+  {
+    path: "/Projects/Bottoms",
+    component: Bottom
+  },
+  {
+    path: "/Projects/Comedian",
+    component: Comedian
   }
 ];
 
@@ -43,37 +66,23 @@ class App extends Component {
           </header>
 
     
-
-
-
-        <div className="App-main">
-        <Main
-        />
-        </div>
-
-
+          <div className="App-main">
+        <Main />
+          </div>
 
         <footer className="App-footer">
           <Footer />
           </footer> 
           
 
-        </div>
+   </div>
 
-        
-   
- </Router>
+ 
+  </Router>
 
-  );
-
-
-  
+  );  
+ }
 }
-
-}
-
-
-
 
 
 export default App;
