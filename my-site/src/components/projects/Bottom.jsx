@@ -19,33 +19,20 @@ return (
                         <a href="http://jtp2.surge.sh/" >
                         <img src={BU} className="ProjectIcon"  alt="bottoms" />
                         </a>
-                            <div className= "project-desc">
+                    <div className= "project-desc">
                             
 
-                            <div className="languageIconContainer">
+                        <div className="languageIconContainer">
                             <img src ={CSSlogo} className="linkIcon" />
                             <img src ={ReactLogo} className="linkIcon" />
                             <img src ={SQL} className="linkIcon" />
-                            
-
-                            <a href="https://github.com/taubman33/bottomsup">
-                            <img src={GH} className="linkIcon" />
-                            </a>
-                            </div> 
-
-                            <br/>
-          
-
-    
+                          <a href="https://github.com/taubman33/bottomsup">
+                              <img src={GH} className="linkIcon" />
+                          </a>
+                 </div>      
+          </div>
      </div>
-
-
-     <div className="links">
-            <Link to='/Projects' className='nav-link'><h4>Projects</h4></Link>
-            </div>
-     </div>
-)
-
+ )
 }
 
 

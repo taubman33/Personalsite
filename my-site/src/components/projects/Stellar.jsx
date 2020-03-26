@@ -34,25 +34,14 @@ return (
                 <img src ={CSSlogo} className="linkIcon" />
                 <img src ={ReactLogo} className="linkIcon" />
                 <img src ={SQL} className="linkIcon" />
-
-                
-                
-         
-       
-
-            <a href="https://github.com/taubman33/Stellar">
-            <img src={GH} className="linkIcon" />
-            </a>
-     </div>
-     </div>
-            <Link to='/Projects' className='nav-link'><h4>Projects</h4></Link>
-      
-    
+                    <a href="https://github.com/taubman33/Stellar">
+                       <img src={GH} className="linkIcon" />
+                     </a>
+             </div>
+        </div>
      </div>
 
-)
-
-
+ )
 }
 
 

@@ -80,9 +80,6 @@ return (
        
 
         </div>
-
-
-        <h2> More projects coming!</h2>
         </div>
     </div>
 

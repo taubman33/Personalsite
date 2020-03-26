@@ -36,25 +36,13 @@ return (
                     <img src ={ReactLogo} className="linkIcon" />
                     <img src ={SQL} className="linkIcon" /> 
                     <img src ={Rails} className="linkIcon" />
-                    
-                    
-
-                
-
                 <a href="https://github.com/taubman33/FXDB">
                     <img src={GH} className="linkIcon" />
-                    </a>
+                </a>
+         </div>
       </div>
-
-      </div>
-            <div className="links">
-            <Link to='/Projects' className='nav-link'><h4>Projects</h4></Link>
-            </div>
-
-
-
  </div>       
-)
+ )
 }
 
 

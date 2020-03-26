@@ -20,7 +20,7 @@ return (
             </div>
 
             
-            <a href="https://github.com/taubman33/FXDB">
+            <a href="https://github.com/taubman33/comedian">
             <img src={CW} className="ProjectIcon"  alt="comed"/>
             </a>
 
@@ -32,19 +32,14 @@ return (
                     <img src ={CSSlogo} className="linkIcon" />
                     <img src ={ReactLogo} className="linkIcon" />
                     
-                    <a href="https://github.com/taubman33/Comedian">
+                   <a href="https://github.com/taubman33/Comedian">
                     <img src={GH} className="linkIcon" />
-                    </a>
-
-                </div>
+                  </a>
             </div>
-            <Link to='/Projects' className='nav-link'><h4>Projects</h4></Link>
-           
+       </div>     
 </div>
      
-)
-
-
+ )
 }
 
 
