@@ -32,7 +32,8 @@
   bottom: 0;
   max-width: 100vw;
   text-align: center;
-  background-color: #4a73b1;
+  /* background-color: #4a73b1; */
+  background-color: #012C49;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -44,9 +45,20 @@
 }
 
 header{
-  background-color: #4a73b1;
-  padding: 1rem;
-    margin-bottom: -30px
+  /*  background-image: url('./components/assets/PP10110507-Tropical-Green-Ocean-Water.jpg');  */
+  background-position: center;  
+  margin-bottom: -30px;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+    
+}
+
+.header-container{
+
+  background-color: rgb(1, 44, 73);
+  padding: 2rem;
+  
 }
 
 img {
@@ -59,18 +71,20 @@ img {
 }
 
 .languageIconContainer {
-  display: flex;
+  /* display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; */
     margin-bottom: 2rem;
-    max-width: 60%;
+    /* max-width: 60%; */
 }
 
 .linkIcon {
-  width: 20%
+  width: 10%;
+  margin: 2rem;
 }
 
 .main {
+  background-position: center;
   margin-top: 1rem;
   margin-bottom: -1rem;
 
@@ -92,7 +106,7 @@ img {
 
 .prof-pic {
   border-radius: 10px;
-  border: 5px solid #4a73b1
+  border: 5px solid #012C49;
   }
   
 .ProjectIcon {
@@ -114,7 +128,6 @@ img {
 
 .project-links { 
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
 }
 
@@ -129,7 +142,7 @@ img {
     margin-bottom: 2rem;   
 }
 
-.ProjectIcon:hover, .linkIcon:hover {
+.linkIcon:hover, .project-link:hover {
   transform: scale(1.2, 1.2)
 }
 
@@ -185,7 +198,7 @@ font-size: 100%;
 border: none;
 border-radius: 0;
 display: block;
-width: 60vw;
+width: 50vw;
 padding: 0;
 margin: 0;
 -webkit-appearance: none;
@@ -221,7 +234,7 @@ outline-offset: -1px;
 }
 #fs-frm [type="text"],
 #fs-frm [type="email"] {
-      width: 60vw;
+      width: 40vw;
 }
 #fs-frm [type="button"],
 #fs-frm [type="submit"],

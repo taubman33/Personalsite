@@ -31,22 +31,24 @@ return (
            
 
             <div className="languageIconContainer">
-            <img src ={CSSlogo} className="linkIcon" />
-            <img src ={ReactLogo} className="linkIcon" />
-            <img src ={SQL} className="linkIcon" />
+                <img src ={CSSlogo} className="linkIcon" />
+                <img src ={ReactLogo} className="linkIcon" />
+                <img src ={SQL} className="linkIcon" />
+
+                
+                
+         
+       
+
             <a href="https://github.com/taubman33/Stellar">
             <img src={GH} className="linkIcon" />
             </a>
-            </div>
-
-
-            <Link to='/Projects' className='nav-link'> <h2> Back to Projects</h2></Link>
-        
-           
-
-        </div>
-    </div>
-          
+     </div>
+     </div>
+            <Link to='/Projects' className='nav-link'><h4>Projects</h4></Link>
+      
+    
+     </div>
 
 )
 

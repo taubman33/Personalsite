@@ -23,7 +23,7 @@ function Projects () {
 return (
 
    <div className="project-container">
-         <Route exact path ="/Projects/Fxdb" component={Fxdb}/>
+            <Route exact path ="/Projects/Fxdb" component={Fxdb}/>
             <Route exact path ="/Projects/Stellar" component={Stellar}/>
             <Route exact path="/Projects/Bottom"component={Bottom}/>
             <Route exact path="/Projects/Comedian"component={Comedian}/>
@@ -33,14 +33,14 @@ return (
         <h1>Projects</h1>
 
 
-                    <div className= "project-links"> 
+        <div className= "project-links"> 
 
 
         {/* P4 */}
         <div id="project-window">
         <h2>FXDB</h2>
-        <Link to='/Projects/Fxdb' className='nav-link'>
-        <img src={FX} />
+        <Link to='/Projects/Fxdb' >
+        <img src={FX} className="project-link" />
 
         </Link>
         </div>
@@ -50,8 +50,8 @@ return (
         <div id="project-window">
         <h2>Stellar</h2>
        
-        <Link to='/Projects/Stellar' className='nav-link'>
-        <img src={SW} />
+        <Link to='/Projects/Stellar' >
+        <img src={SW} className="project-link" />
 
         </Link>
         </div>
@@ -62,8 +62,8 @@ return (
        
         <div id="project-window">
         <h2>Bottoms Up!</h2>
-        <Link to='/Projects/Bottoms' className='nav-link'>
-        <img src={BU} />
+        <Link to='/Projects/Bottom' >
+        <img src={BU} className="project-link" />
         </Link>
         </div>
 
@@ -71,9 +71,9 @@ return (
         {/* P1 */}
         
         <div id="project-window">
-        <h2>Everyone's A Comedian!</h2>
-        <Link to='/Projects/Comedian' className='nav-link'>
-        <img src={CW} />
+        <h2>Everyone's A Comedian</h2>
+        <Link to='/Projects/Comedian' >
+        <img src={CW} className="project-link"/>
         </Link>
         </div>
         
@@ -82,7 +82,7 @@ return (
         </div>
 
 
-        <h2> More Projects coming!</h2>
+        <h2> More projects coming!</h2>
         </div>
     </div>
 

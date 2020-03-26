@@ -1,7 +1,7 @@
 import React from 'react';
 import GH from "./assets/GitHub.png";
 import LI from "./assets/LinkedIn.png"
-import GM from "./assets/Gmail.png"
+
 
 
 function Footer () {

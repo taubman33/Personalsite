@@ -5,7 +5,7 @@ import CSSlogo from '../assets/Logos/css.svg'
 import ReactLogo from '../assets/Logos/react.svg'
 import SQL from'../assets/Logos/sql.svg'
 import GH from "../assets/GitHub.png";
-
+ 
 function Bottom () {
 return (
 <div id="slide-3">
@@ -26,17 +26,24 @@ return (
                             <img src ={CSSlogo} className="linkIcon" />
                             <img src ={ReactLogo} className="linkIcon" />
                             <img src ={SQL} className="linkIcon" />
-                            </div>
+                            
 
                             <a href="https://github.com/taubman33/bottomsup">
                             <img src={GH} className="linkIcon" />
                             </a>
                             </div> 
 
+                            <br/>
+          
 
-            <Link to='/Projects' className='nav-link'> <h2> Back to Projects</h2></Link>
-                            </div>
     
+     </div>
+
+
+     <div className="links">
+            <Link to='/Projects' className='nav-link'><h4>Projects</h4></Link>
+            </div>
+     </div>
 )
 
 }

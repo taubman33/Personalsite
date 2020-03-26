@@ -13,7 +13,7 @@ return (
 
 <div id="slide-1">   
         <h3>FXDB - the Guitar Effects Database </h3>
-
+ 
         <div className="project-type">
         <p> For my capstone project at General Assembly I created a full stack application and database of notable guitar effect pedals, also known as 'Stomp Boxes' that are popular with musicians from John Mayer to Jack White.
                 Using a Ruby on Rails backend with a React front end I built up a resource for cover bands and musicians who wanted a streamlined, easy way to search for what specific effect pedals were used on famous songs.
@@ -32,30 +32,29 @@ return (
                 
                 
                 <div className="languageIconContainer">
-                 <img src ={CSSlogo} className="linkIcon" />
-                <img src ={ReactLogo} className="linkIcon" />
-                <img src ={SQL} className="linkIcon" /> 
-                <img src ={Ruby} className="linkIcon" />
-                <img src ={Rails} className="linkIcon" />
+                    <img src ={CSSlogo} className="linkIcon" />
+                    <img src ={ReactLogo} className="linkIcon" />
+                    <img src ={SQL} className="linkIcon" /> 
+                    <img src ={Rails} className="linkIcon" />
+                    
+                    
+
                 
-                </div>
+
                 <a href="https://github.com/taubman33/FXDB">
-                <img src={GH} className="linkIcon" />
-                </a>
+                    <img src={GH} className="linkIcon" />
+                    </a>
+      </div>
 
-            
-                </div>
+      </div>
+            <div className="links">
+            <Link to='/Projects' className='nav-link'><h4>Projects</h4></Link>
+            </div>
 
 
-  <Link to='/Projects' className='nav-link'> <h2> Back to Projects</h2></Link>
 
  </div>       
-
-
-    
 )
-
-
 }
 
 
