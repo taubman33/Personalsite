@@ -51,15 +51,10 @@ header{
     display: flex;
     flex-direction: column;
         justify-content: center;
-    
+        background-color: rgb(1, 44, 73);
+        padding: 2rem;    
 }
 
-.header-container{
-
-  background-color: rgb(1, 44, 73);
-  padding: 2rem;
-  
-}
 
 img {
   width: 60%;

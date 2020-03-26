@@ -5,12 +5,6 @@ import BU from './assets/BottomsWindow.jpg'
 import FX from './assets/FXDBbanner.jpg'
 import GH from "./assets/GitHub.png";
 import CW from './assets/ComedWindow.png';
-// import CSSlogo from './assets/Logos/css.svg'
-// import Rails from './assets/Logos/RailsLogo.svg'
-// import Ruby from './assets/Logos/ruby.svg'
-// import ReactLogo from './assets/Logos/react.svg'
-// import SQL from'./assets/Logos/sql.svg'
-
 
 import Bottom from './projects/Bottom';
 import Fxdb from './projects/Fxdb';
