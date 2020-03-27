@@ -18,12 +18,11 @@ return (
                         different recipes for different cocktails, with a section to learn about the different types of alcohols and spirits that we commmonly find in stores and bars today.</p>
                         </div>
                         
-                        <a href="http://jtp2.surge.sh/" >
+                        <a href="http://jtp2.surge.sh/" target="_blank">
                         <img src={BU} className="ProjectIcon"  alt="bottoms" />
                         </a>
                     <div className= "project-icons">
-                            
-
+                        
                         <div className="languageIconContainer">
                             <img src ={CSSlogo} className="linkIcon" />
                             <img src ={ReactLogo} className="linkIcon" />

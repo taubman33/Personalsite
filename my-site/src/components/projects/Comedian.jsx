@@ -20,7 +20,7 @@ return (
             </div>
 
             
-            <a href="https://github.com/taubman33/comedian">
+            <a href="https://github.com/taubman33/comedian" target="_blank">
             <img src={CW} className="ProjectIcon"  alt="comed"/>
             </a>
 

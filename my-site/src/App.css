@@ -70,7 +70,6 @@ img {
     flex-direction: row;
     justify-content: space-between; */
     margin-bottom: 2rem;
-    /* max-width: 60%; */
 }
 
 .linkIcon {
@@ -107,7 +106,9 @@ img {
 .ProjectIcon {
     margin-bottom: 2rem;
   }
-
+.project-icons {
+  width: 40%;
+}
 
 .project-container{
     display: flex;

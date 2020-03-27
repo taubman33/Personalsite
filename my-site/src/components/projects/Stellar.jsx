@@ -21,13 +21,13 @@ return (
              <br/>
               </div>   
         
-        <a href="https://stellar-travel.surge.sh/" >
+        <a href="https://stellar-travel.surge.sh/" target="_blank">
         <img src={SW} className="ProjectIcon" alt="stellar" />
         </a>
 
 
 
-            <div className= "project-icon">
+            <div className= "project-icons">
            
 
             <div className="languageIconContainer">

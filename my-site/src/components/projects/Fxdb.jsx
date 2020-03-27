@@ -24,7 +24,7 @@ return (
             <br/>
             <p> This project will be re-deployed soon.</p>
             
-            <a href="https://github.com/taubman33/FXDB">
+            <a href="https://github.com/taubman33/FXDB" target="_blank">
             <img src={FX} className="ProjectIcon"  alt="fxdb"/>
             </a>
 
