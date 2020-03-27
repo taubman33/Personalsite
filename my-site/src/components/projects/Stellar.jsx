@@ -13,7 +13,7 @@ return (
     <div className="Project-card">
         <h3>Orbitz Travel Mockup Site</h3>
 
-        <div className="project-type">
+        <div className="project-desc">
         <p>For this project my class at GA was put into groups of 3, and set to collaborate with the UX class to create a full-stack mock up of an existing travel site. 
             I was responsbile for the Back End where I used SQL to create a database of over 100 flights between 6 different airports. 
             As per request of our UX collaborators, we also added an "Eco-friendly" option, where users would be able to select from filitered flights.
@@ -27,7 +27,7 @@ return (
 
 
 
-            <div className= "project-desc">
+            <div className= "project-icon">
            
 
             <div className="languageIconContainer">

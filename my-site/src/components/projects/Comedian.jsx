@@ -8,10 +8,10 @@ import GH from "../assets/GitHub.png";
 function Comedian () {
 return (
 
-<div id="slide-1">   
+<div className="Project-card">   
         <h3>Everyone's A Comedian </h3>
 
-        <div className="project-type">
+        <div className="project-desc">
         <p> My first project at General Assembly, tasked to create a site linked to an API. I chose the Dad Joke API and built this, an easy way to search for SFW jokes. 
             After the completion of the class, I re-worked it into a React site.
             </p>   
@@ -25,7 +25,7 @@ return (
             </a>
 
 
-            <div className= "project-desc">
+            <div className= "project-icons">
                 
                 
                 <div className="languageIconContainer">

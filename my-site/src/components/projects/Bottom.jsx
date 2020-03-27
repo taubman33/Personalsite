@@ -8,10 +8,12 @@ import GH from "../assets/GitHub.png";
  
 function Bottom () {
 return (
-<div id="slide-3">
+<div className="Project-card">
+
+    {/* <div className="project-desc" */}
                     <h3>React Cocktail Recipe and Information App</h3>
 
-                        <div className="project-type">
+                        <div className="project-desc">
                         <p>For my second project at GA and my first full React build, I created a mobile responsive site that allowed users to search 
                         different recipes for different cocktails, with a section to learn about the different types of alcohols and spirits that we commmonly find in stores and bars today.</p>
                         </div>
@@ -19,7 +21,7 @@ return (
                         <a href="http://jtp2.surge.sh/" >
                         <img src={BU} className="ProjectIcon"  alt="bottoms" />
                         </a>
-                    <div className= "project-desc">
+                    <div className= "project-icons">
                             
 
                         <div className="languageIconContainer">

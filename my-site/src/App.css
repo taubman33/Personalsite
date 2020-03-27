@@ -107,13 +107,17 @@ img {
 .ProjectIcon {
     margin-bottom: 2rem;
   }
+
+
+
   
 .project-container{
     display: flex;
         justify-content: space-evenly;
         
 }
-  
+ 
+
 .project-desc {
 
   display: inline-flex;
@@ -126,6 +130,10 @@ img {
   justify-content: space-evenly;
 }
 
+.project-type {
+  width: 75%;
+}
+
 .Projects{
     width: 80%;
     margin-bottom: 3rem;
@@ -134,7 +142,8 @@ img {
 .resume-container {
     margin-top: 40px;
     height: 60%;
-    margin-bottom: 2rem;   
+    margin-bottom: 2rem; 
+    text-shadow: 1px 1px black;  
 }
 
 .linkIcon:hover, .project-link:hover {
@@ -157,6 +166,10 @@ font-size: 72px;
 
 }  
 
+.project-container h1 {
+  text-shadow: 1px 1px black;
+}
+
 h2{
     color: black;
     font-weight: 200;
@@ -169,6 +182,10 @@ h3{
     letter-spacing: 3px;
     font-size: 38px;
   }
+
+ .Project-card h3 {
+   text-shadow: 1px 1px black;
+ } 
   
   h4{
     color: #92dccd; 

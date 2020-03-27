@@ -1,5 +1,5 @@
 import React from 'react';
-import GH from "./assets/GitHub.png";
+import GH from "./assets/GitHub2.png";
 import LI from "./assets/LinkedIn.png"
 
 
