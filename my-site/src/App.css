@@ -66,14 +66,18 @@ img {
 }
 
 .languageIcon {
-  width: 8%
+  max-width: 8%
+  
+}
+
+.languageIcons {
+  display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
   
 }
 
 .languageIconContainer {
-  /* display: flex;
-    flex-direction: row; 
-    justify-content: space-evenly; */
     margin-bottom: 2rem;
 }
 

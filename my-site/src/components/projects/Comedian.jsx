@@ -28,13 +28,14 @@ return (
             <div className= "languageIconContainer">
                 
                 <div className ="languageIcons"> 
+
                 <div className="project-icons">
                     <img src ={CSSlogo} className="linkIcon" />
                     <img src ={ReactLogo} className="linkIcon" />
                     
                    <a href="https://github.com/taubman33/Comedian">
                     <img src={GH} className="linkIcon" />
-                  </a>
+                  </a>     
             </div>
           </div>
        </div>     

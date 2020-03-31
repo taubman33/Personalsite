@@ -28,7 +28,7 @@ return (
 
 
             <div className= "languageIconContainer">
-           
+            <div className= "languageIcons">
 
             <div className="project-icons">
                 <img src ={CSSlogo} className="linkIcon" />
@@ -38,11 +38,12 @@ return (
                        <img src={GH} className="linkIcon" />
                      </a>
              </div>
+            </div> 
         </div>
      </div>
 
  )
 }
-
+ 
 
 export default Stellar

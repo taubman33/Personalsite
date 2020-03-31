@@ -20,9 +20,13 @@ return (
                         <a href="http://jtp2.surge.sh/" target="_blank">
                         <img src={BU} className="ProjectIcon"  alt="bottoms" />
                         </a>
-                    <div className= "project-icons">
+                   
                         
                         <div className="languageIconContainer">
+
+                        <div className= "languageIcons">
+
+                        <div className ="project-icons">
                             <img src ={CSSlogo} className="linkIcon" />
                             <img src ={ReactLogo} className="linkIcon" />
                             <img src ={SQL} className="linkIcon" />
@@ -30,6 +34,7 @@ return (
                               <img src={GH} className="linkIcon" />
                           </a>
                  </div>      
+                 </div>
           </div>
      </div>
  )
