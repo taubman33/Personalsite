@@ -10,7 +10,7 @@ export default function Contact() {
                     style={{width: "90vw", 
                     display: "flex", 
                     justifyContent: "center", 
-                    paddingTop: "10vh"}}>
+                    paddingTop: "1vh"}}>
 
 
          
@@ -32,12 +32,12 @@ export default function Contact() {
                     <label for="email-address"><h3>Email Address</h3></label>
 
                     
-                    <input type="email" name="_replyto" id="email-address" placeholder="Please enter your email here..." required=""/>
+                    <input type="email" name="_replyto" id="email-address" placeholder=" " required=""/>
                         <label for="message"><h3>Message</h3></label>
-                        <textarea rows="8" name="message" id="message" placeholder="Please enter message here..." required=""></textarea>
+                        <textarea rows="8" name="message" id="message" placeholder=" " required=""></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
         </fieldset>
-                        <input type="submit" value="Submit"/>
+                        <input type="submit" value="Submit" style={{backgroundColor: "teal", color: "white", borderRadius: "10px"}}/>
         </form>
         </div>
         </div>

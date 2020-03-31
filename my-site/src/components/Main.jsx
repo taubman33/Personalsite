@@ -13,14 +13,17 @@ import Stellar from './projects/Stellar';
 import Comedian from './projects/Comedian';
 
 import City from "./assets/city2.png"
-
+import Sand from "./assets/sand.jpg"
 export default function Main({}) {
 return (
 
 
 <div className="main-container">
     
-<div className="main">
+<div className="main"
+style={{
+    margin: "5rem", backgroundColor: "#ffe9ca", color: "white", borderRadius: "10px"}}>
+>
    
             <Route exact path ="/" component={AboutMe}/>
             <Route exact path ="/Resume" component={Resume}/>
