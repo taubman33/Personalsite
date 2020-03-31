@@ -22,8 +22,8 @@ return (
     
 <div className="main"
 style={{
-    margin: "5rem", backgroundColor: "#ffe9ca", color: "white", borderRadius: "10px"}}>
->
+    margin: "5rem", backgroundColor: "#ffe9ca", borderRadius: "10px"}}>
+
    
             <Route exact path ="/" component={AboutMe}/>
             <Route exact path ="/Resume" component={Resume}/>

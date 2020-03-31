@@ -4,6 +4,7 @@ import CW from '../assets/ComedWindow.png';
 import CSSlogo from '../assets/Logos/css.svg';
 import ReactLogo from '../assets/Logos/react.svg';
 import GH from "../assets/GitHub.png";
+import Node from "../assets/Logos/node.png";
 
 function Comedian () {
 return (
@@ -32,6 +33,7 @@ return (
 
                 <div className="project-icons">
                     <img src ={CSSlogo} className="linkIcon" />
+                    <img src ={Node} className="linkIcon" />
                     <img src ={ReactLogo} className="linkIcon" />
                     
                     <br />

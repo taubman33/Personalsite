@@ -170,6 +170,7 @@ h1 {
   
 header h1{
 font-size: 72px;
+letter-spacing: 3rem;
 
 }  
 
@@ -189,9 +190,9 @@ h2{
   
 h3{
     color: #92dccd; 
-    font-weight: 400;
-    letter-spacing: 3px;
-    font-size: 38px;
+    font-weight: 300;
+    letter-spacing: 1rem;
+    font-size: 50px;
   }
 
  .Project-card h3 {
