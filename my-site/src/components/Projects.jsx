@@ -25,7 +25,7 @@ return (
 
         <div className= "Projects">
         <h1>Projects</h1>
-        <h2> Click a link to open a new window</h2>
+        {/* <h2> Click a link to open a new window</h2> */}
 
 
         <div className= "project-links"> 
@@ -34,6 +34,7 @@ return (
         {/* P4 */}
         <div id="project-window">
         <h3>FXDB</h3>
+        <p> The Guitar Effects Database</p>
         <Link to='/Projects/Fxdb' >
         <img src={FX} className="project-link" />
 
@@ -44,7 +45,7 @@ return (
         {/* P3     */}
         <div id="project-window">
         <h3>Stellar</h3>
-       
+       <p> Orbitz Travel Mockup Site</p>
         <Link to='/Projects/Stellar' >
         <img src={SW} className="project-link" />
 
@@ -56,7 +57,8 @@ return (
         {/* P2 */}
        
         <div id="project-window">
-        <h3>Bottoms Up!</h3>
+        <h3>Bottoms Up</h3>
+        <p>For all lovers of a good libation</p>
         <Link to='/Projects/Bottom' >
         <img src={BU} className="project-link" />
         </Link>
@@ -67,6 +69,7 @@ return (
         
         <div id="project-window">
         <h3>Everyone's A Comedian</h3>
+        <p>Dad joke finder, for when you need a cheesey joke</p>
         <Link to='/Projects/Comedian' >
         <img src={CW} className="project-link"/>
         </Link>

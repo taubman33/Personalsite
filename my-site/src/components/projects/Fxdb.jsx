@@ -22,7 +22,7 @@ return (
        </div>
 
             <br/>
-            <p> This project will be re-deployed soon.</p>
+            <p> This project will be re-deployed with functioning search engine soon.</p>
             
             <a href="https://github.com/taubman33/FXDB" target="_blank">
             <img src={FX} className="ProjectIcon"  alt="fxdb"/>
@@ -39,7 +39,9 @@ return (
                             <img src ={ReactLogo} className="linkIcon" />
                             <img src ={SQL} className="linkIcon" /> 
                             <img src ={Rails} className="linkIcon" />
-                        <a href="https://github.com/taubman33/FXDB">
+
+                            <br />
+                        <a href="https://github.com/taubman33/FXDB" target="_blank">
                             <img src={GH} className="linkIcon" />
                         </a>
                         </div>

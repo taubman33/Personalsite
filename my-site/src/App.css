@@ -12,11 +12,12 @@
 }
 
 .aboutMe {
-  margin: 3rem;
+  margin: 4rem;
 }
 
 .aboutMe-Container {
   text-align: center;
+  margin: 2rem;
 }
 
 .city-image {
@@ -107,6 +108,8 @@ img {
  
 }
 
+
+
 .prof-pic {
   border-radius: 10px;
   border: 5px solid #012C49;
@@ -131,7 +134,9 @@ img {
   width: 60%;
 }
 
-
+.project-link {
+  border-radius: 10px;
+}
 
 .project-type {
   width: 75%;
@@ -203,6 +208,10 @@ h3{
 
 .contact-page h1, h3 {
   text-shadow: 1px 1px grey;
+}
+
+p {
+  font-size: 18px;
 }
 
 

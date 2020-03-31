@@ -16,18 +16,16 @@ return (
   
 <div className= "footer-links"></div> 
 
-<a href="https://github.com/taubman33">
+<a href="https://github.com/taubman33" target="_blank" alt="GHIcon">
   <img src={GH} className="linkIcon" />
 </a>
 
-{/* <a href="mailto:taubman33@gmail.com?subject=JobOpportunity">
-  <img src={GM} className="linkIcon" />
-</a> */}
+
 
 <h4> Jeremy Taubman 2020</h4>
 
 
-<a href="https://www.linkedin.com/in/jeremy-taubman-23736460">
+<a href="https://www.linkedin.com/in/jeremy-taubman-23736460" target="_blank" alt="LIIcon">
   <img src={LI} className="linkIcon" />
 </a>
 

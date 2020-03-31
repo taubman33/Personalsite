@@ -30,7 +30,8 @@ return (
                             <img src ={CSSlogo} className="linkIcon" />
                             <img src ={ReactLogo} className="linkIcon" />
                             <img src ={SQL} className="linkIcon" />
-                          <a href="https://github.com/taubman33/bottomsup">
+                            <br />
+                          <a href="https://github.com/taubman33/bottomsup" target="_blank">
                               <img src={GH} className="linkIcon" />
                           </a>
                  </div>      
