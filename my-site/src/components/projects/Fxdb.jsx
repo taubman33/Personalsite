@@ -12,14 +12,14 @@ function Fxdb () {
 return (
 
 <div className="Project-card">   
-        <h3>FXDB - the Guitar Effects Database </h3>
+    <h3>FXDB - the Guitar Effects Database </h3>
  
-        <div className="project-desc">
-        <p> For my capstone project at General Assembly I created a full stack application and database of notable guitar effect pedals, also known as 'Stomp Boxes' that are popular with musicians from John Mayer to Jack White.
+       <div className="project-desc">
+            <p> For my capstone project at General Assembly I created a full stack application and database of notable guitar effect pedals, also known as 'Stomp Boxes' that are popular with musicians from John Mayer to Jack White.
                 Using a Ruby on Rails backend with a React front end I built up a resource for cover bands and musicians who wanted a streamlined, easy way to search for what specific effect pedals were used on famous songs.
             </p>   
           
-            </div>
+       </div>
 
             <br/>
             <p> This project will be re-deployed soon.</p>
@@ -29,19 +29,22 @@ return (
             </a>
 
 
-            <div className= "project-icons">
+             <div className= "languageIconContainer">
                 
                 
-                <div className="languageIconContainer">
-                    <img src ={CSSlogo} className="linkIcon" />
-                    <img src ={ReactLogo} className="linkIcon" />
-                    <img src ={SQL} className="linkIcon" /> 
-                    <img src ={Rails} className="linkIcon" />
-                <a href="https://github.com/taubman33/FXDB">
-                    <img src={GH} className="linkIcon" />
-                </a>
-         </div>
-      </div>
+             <div className= "languageIcons">
+                
+                        <div className="project-icons">
+                            <img src ={CSSlogo} className="linkIcon" />
+                            <img src ={ReactLogo} className="linkIcon" />
+                            <img src ={SQL} className="linkIcon" /> 
+                            <img src ={Rails} className="linkIcon" />
+                        <a href="https://github.com/taubman33/FXDB">
+                            <img src={GH} className="linkIcon" />
+                        </a>
+                        </div>
+              </div>
+              </div>
  </div>       
  )
 }

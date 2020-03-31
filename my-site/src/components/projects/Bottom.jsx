@@ -10,7 +10,6 @@ function Bottom () {
 return (
 <div className="Project-card">
 
-    {/* <div className="project-desc" */}
                     <h3>React Cocktail Recipe and Information App</h3>
 
                         <div className="project-desc">

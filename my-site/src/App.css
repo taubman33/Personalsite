@@ -72,8 +72,8 @@ img {
 
 .languageIconContainer {
   /* display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
+    flex-direction: row; 
+    justify-content: space-evenly; */
     margin-bottom: 2rem;
 }
 
@@ -112,27 +112,22 @@ img {
     margin-bottom: 2rem;
   }
 .project-icons {
-  width: 40%;
+  width: 70%;
 }
 
 .project-container{
     display: flex;
-        justify-content: space-evenly;
-        
+    justify-content: space-evenly;       
 }
  
 
 .project-desc {
-
   display: inline-flex;
   justify-content: space-around;
   width: 60%;
 }
 
-.project-links { 
-  display: flex;
-  justify-content: space-evenly;
-}
+
 
 .project-type {
   width: 75%;

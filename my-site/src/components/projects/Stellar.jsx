@@ -27,10 +27,10 @@ return (
 
 
 
-            <div className= "project-icons">
+            <div className= "languageIconContainer">
            
 
-            <div className="languageIconContainer">
+            <div className="project-icons">
                 <img src ={CSSlogo} className="linkIcon" />
                 <img src ={ReactLogo} className="linkIcon" />
                 <img src ={SQL} className="linkIcon" />
