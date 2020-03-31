@@ -21,10 +21,7 @@ return (
           
        </div>
 
-            <br/>
-            <p> This project will be re-deployed with functioning search engine soon.</p>
-            
-            <a href="https://github.com/taubman33/FXDB" target="_blank">
+            <a href="http://fxdbtest.surge.sh/" target="_blank">
             <img src={FX} className="ProjectIcon"  alt="fxdb"/>
             </a>
 
