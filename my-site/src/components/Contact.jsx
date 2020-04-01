@@ -22,14 +22,14 @@ export default function Contact() {
               method="post">
 
             <fieldset id="fs-frm-inputs">
-                <label for="full-name"><h3>Full Name</h3></label>
+                <label for="full-name"><h3>Name</h3></label>
                 <input type="text" 
                        name="name" 
                        id="full-name"
                        placeholder="First and Last" 
                        required=""/>
 
-                    <label for="email-address"><h3>Email Address</h3></label>
+                    <label for="email-address"><h3>Email</h3></label>
 
                     
                     <input type="email" name="_replyto" id="email-address" placeholder=" " required=""/>
