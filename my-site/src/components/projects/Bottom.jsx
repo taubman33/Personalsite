@@ -10,18 +10,19 @@ function Bottom () {
 return (
 <div className="Project-card">
 
-                    <h3>React Cocktail Recipe and Information App</h3>
+                    <h3>Bottoms Up!</h3>
+                    <h2>React Cocktail Recipe and Information App</h2>
 
                         <div className="project-desc">
                         <p>For my second project at GA and my first full React build, I created a mobile responsive site that allowed users to search 
                         different recipes for different cocktails, with a section to learn about the different types of alcohols and spirits that we commmonly find in stores and bars today.</p>
                         </div>
                         
+                        <h2>Click the image below to open link in a new tab</h2>
                         <a href="http://jtp2.surge.sh/" target="_blank">
                         <img src={BU} className="ProjectIcon"  alt="bottoms" />
                         </a>
                    
-                        
                         <div className="languageIconContainer">
 
                         <div className= "languageIcons">

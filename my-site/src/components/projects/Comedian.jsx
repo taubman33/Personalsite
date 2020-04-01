@@ -21,7 +21,7 @@ return (
             
             </div>
 
-            
+            <h2>Click the image below to open link in a new tab</h2>
             <a href="https://github.com/taubman33/comedian" target="_blank">
             <img src={CW} className="ProjectIcon"  alt="comed"/>
             </a>

@@ -4,8 +4,10 @@ export default function Contact() {
 
 
         <div className = "contact-page">
-            <h1> Contact Me</h1>
 
+          <div className="title-container">          
+            <h1> Contact Me</h1>
+            </div>
         <div className="form-container"
                     style={{width: "90vw", 
                     display: "flex", 
@@ -22,18 +24,18 @@ export default function Contact() {
               method="post">
 
             <fieldset id="fs-frm-inputs">
-                <label for="full-name"><h3>Name</h3></label>
+                <label for="full-name"><h2>Name</h2></label>
                 <input type="text" 
                        name="name" 
                        id="full-name"
                        placeholder="First and Last" 
                        required=""/>
 
-                    <label for="email-address"><h3>Email</h3></label>
+                    <label for="email-address"><h2>Email</h2></label>
 
                     
                     <input type="email" name="_replyto" id="email-address" placeholder=" " required=""/>
-                        <label for="message"><h3>Message</h3></label>
+                        <label for="message"><h2>Message</h2></label>
                         <textarea rows="8" name="message" id="message" placeholder=" " required=""></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"/>
         </fieldset>

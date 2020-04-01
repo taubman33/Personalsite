@@ -24,9 +24,11 @@ return (
 
 
         <div className= "Projects">
-        <h1>Projects</h1>
-        {/* <h2> Click a link to open a new window</h2> */}
 
+        <div className="title-container">    
+        <h1>Projects</h1>
+        <h2> Click a link to open a new window</h2>
+        </div>
 
         <div className= "project-links"> 
 
