@@ -12,8 +12,8 @@ function Fxdb () {
 return (
 
 <div className="Project-card">   
-    <h3>FXDB - the Guitar Effects Database </h3>
- 
+    <h3>FXDB </h3>
+    <h2>The Guitar Effects Database</h2>
        <div className="project-desc">
             <p> For my capstone project at General Assembly I created a full stack application and database of notable guitar effect pedals, also known as 'Stomp Boxes' that are popular with musicians from John Mayer to Jack White.
                 Using a Ruby on Rails backend with a React front end I built up a resource for cover bands and musicians who wanted a streamlined, easy way to search for what specific effect pedals were used on famous songs.
@@ -28,9 +28,8 @@ return (
 
              <div className= "languageIconContainer">
                 
-                
              <div className= "languageIcons">
-                
+            
                         <div className="project-icons">
                             <img src ={CSSlogo} className="linkIcon" />
                             <img src ={ReactLogo} className="linkIcon" />
@@ -41,6 +40,9 @@ return (
                         <a href="https://github.com/taubman33/FXDB" target="_blank">
                             <img src={GH} className="linkIcon" />
                         </a>
+
+                        
+                        <h2> Link to GitHub Repo</h2>
                         </div>
               </div>
               </div>

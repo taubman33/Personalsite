@@ -39,7 +39,8 @@ return (
                     <br />
                    <a href="https://github.com/taubman33/Comedian" target="_blank">
                     <img src={GH} className="linkIcon" />
-                  </a>     
+                  </a> 
+                  <h2> Link to GitHub Repo</h2>    
             </div>
           </div>
        </div>     
