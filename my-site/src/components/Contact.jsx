@@ -28,7 +28,7 @@ export default function Contact() {
                 <input type="text" 
                        name="name" 
                        id="full-name"
-                       placeholder="First and Last" 
+                       placeholder="" 
                        required=""/>
 
                     <label for="email-address"><h2>Email</h2></label>

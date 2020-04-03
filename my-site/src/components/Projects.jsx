@@ -25,18 +25,18 @@ return (
 
         <div className= "Projects">
 
-        <div className="title-container">    
+        <div className="title-container" style={{ letterSpacing: "1em", marginBottom: "2rem"}}>    
         <h1>Projects</h1>
-        <h2> Click a link to open a new window</h2>
+        <h2> click a link below to learn more</h2>
         </div>
 
         <div className= "project-links"> 
 
 
         {/* P4 */}
-        <div id="project-window">
-        <h3>FXDB</h3>
-        <p> The Guitar Effects Database</p>
+        <div id="project-window" style={{paddingTop: "-3rem", backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
+        <h1>FXDB</h1>
+        <h3> The Guitar Effects Database</h3>
         <Link to='/Projects/Fxdb' >
         <img src={FX} className="project-link" />
 
@@ -45,9 +45,9 @@ return (
 
         
         {/* P3     */}
-        <div id="project-window">
-        <h3>Stellar</h3>
-       <p> Orbitz Travel Mockup Site</p>
+        <div id="project-window" style={{backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
+        <h1>Stellar</h1>
+       <h3> Orbitz Travel Mockup Site</h3>
         <Link to='/Projects/Stellar' >
         <img src={SW} className="project-link" />
 
@@ -58,9 +58,9 @@ return (
 
         {/* P2 */}
        
-        <div id="project-window">
-        <h3>Bottoms Up</h3>
-        <p>For all lovers of a good libation</p>
+        <div id="project-window" style={{backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
+        <h1>Bottoms Up</h1>
+        <h3>For all lovers of a good libation</h3>
         <Link to='/Projects/Bottom' >
         <img src={BU} className="project-link" />
         </Link>
@@ -69,9 +69,9 @@ return (
 
         {/* P1 */}
         
-        <div id="project-window">
-        <h3>Everyone's A Comedian</h3>
-        <p>Dad joke finder, for when you need a cheesey joke</p>
+        <div id="project-window" style={{backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
+        <h1>Everyone's A Comedian</h1>
+        <h3>Dad joke finder, for when you need a cheesey joke</h3>
         <Link to='/Projects/Comedian' >
         <img src={CW} className="project-link"/>
         </Link>
