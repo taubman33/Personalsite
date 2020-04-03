@@ -36,7 +36,7 @@ return (
         {/* P4 */}
         <div id="project-window" style={{paddingTop: "-3rem", backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
         <h1>FXDB</h1>
-        <h3> The Guitar Effects Database</h3>
+        <h3> the Guitar Effects Database</h3>
         <Link to='/Projects/Fxdb' >
         <img src={FX} className="project-link" />
 
@@ -60,7 +60,7 @@ return (
        
         <div id="project-window" style={{backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
         <h1>Bottoms Up</h1>
-        <h3>For all lovers of a good libation</h3>
+        <h3>for all lovers of a good libation</h3>
         <Link to='/Projects/Bottom' >
         <img src={BU} className="project-link" />
         </Link>
@@ -71,7 +71,7 @@ return (
         
         <div id="project-window" style={{backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
         <h1>Everyone's A Comedian</h1>
-        <h3>Dad joke finder, for when you need a cheesey joke</h3>
+        <h3>for when you need a good cheesey joke</h3>
         <Link to='/Projects/Comedian' >
         <img src={CW} className="project-link"/>
         </Link>
