@@ -8,7 +8,7 @@
   background-position: center;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  /* width: 100%; */
 }
 
 
@@ -95,7 +95,10 @@ img {
  flex-direction: column;
  justify-items: center;
  padding-bottom: 3rem;
-}
+  margin: 5rem; 
+ background-color: #ffe9ca;
+  border-radius: 10px}
+
   
 .navbar {
     display: flex;
@@ -302,13 +305,60 @@ appearance: button;
 }
 
 
+@media only screen and (max-width: 900px) {
+
+  .App {
+    background-color: green;
+    background-image: none;
+    width: 100%;
+    /* text-align: center; */
+  }
+
+
+.header h1 {
+  font-size: 34px;
+  letter-spacing: 1rem;
+  }
+
+.header h3 {
+    font-size: 15px;
+     letter-spacing: 5px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+
+  h4{
+    font-size: 8px;
+  }
+
+.city-image {
+  margin-bottom: -1rem;
+}
+
+
+.main {
+  border: 2rem;
+}
+
+.navbar {
+  width: 70%;
+  display: flex;
+
+flex-direction: row; 
+ justify-content: space-between;
+}
+
+}
+
+
 @media only screen and (max-width: 800px) {
 
   .App {
     background-color: red;
     background-image: none;
-    text-align: center;
-    width: 100%;
+    /* text-align: center;
+    width: 100%; */
   }
 
 
@@ -321,11 +371,19 @@ appearance: button;
     font-size: 15px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 10px;
   }
   h4{
     font-size: 18px;
   }
+
+
+  p {
+    font-size: 8px
+
+
+  }
+  
 
 .city-image {
   margin-bottom: -1rem;

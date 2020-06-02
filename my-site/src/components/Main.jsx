@@ -20,9 +20,7 @@ return (
 
 <div className="main-container">
     
-<div className="main"
-style={{
-    margin: "5rem", backgroundColor: "#ffe9ca", borderRadius: "10px"}}>
+<div className="main">
 
    
             <Route exact path ="/" component={AboutMe}/>
