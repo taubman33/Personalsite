@@ -6,7 +6,7 @@ import ReactLogo from '../assets/Logos/react.svg';
 import GH from "../assets/GitHub.png";
 import Node from "../assets/Logos/node.png";
 
-function Comedian () {
+export default function Comedian () {
 return (
 
 <div className="Project-card">   
@@ -48,6 +48,3 @@ return (
      
  )
 }
-
-
-export default Comedian

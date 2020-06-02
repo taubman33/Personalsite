@@ -13,8 +13,8 @@ import Stellar from './projects/Stellar';
 import Comedian from './projects/Comedian';
 
 import City from "./assets/city2.png"
-import Sand from "./assets/sand.jpg"
-export default function Main({}) {
+
+export default function Main() {
 return (
 
 

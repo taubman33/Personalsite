@@ -41,7 +41,7 @@ const routes = [
   },
   {
     path: "/Projects/Fxdb",
-    component: Projects
+    component: Fxdb
   },
   {
     path: "/Projects/Bottom",
@@ -67,7 +67,7 @@ class App extends Component {
 
     
           <div className="App-main">
-        <Main />
+          <Main />
           </div>
 
         <footer className="App-footer">

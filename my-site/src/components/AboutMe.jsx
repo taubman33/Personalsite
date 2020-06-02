@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfPic from './assets/ProfPic.jpg'
+import ProfPic from './assets/ProfPic2.jpg'
 
 function AboutMe () {
 return (
