@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom"
 
 function Navbar () {
 return (
+
+  <div className="navbar-container">
 <div className= "navbar">
 
 
@@ -16,6 +18,7 @@ return (
 
 
 
+</div>
 </div>
   )
 

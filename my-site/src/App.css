@@ -1,6 +1,7 @@
 /* Site components */
 
 .App {
+  width: 100%;
   text-align: center;
   background-image: url('./components/assets/sand.jpg');
   background-repeat: no-repeat;
@@ -163,6 +164,10 @@ img {
   transform: scale(1.2, 1.2)
 }
 
+.title-container { 
+  letter-spacing: 1em; 
+  margin-bottom: 2rem;}
+
 
 /* Fonts  */
 h1 {
@@ -305,71 +310,105 @@ appearance: button;
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
 
-  .App {
-    background-color: green;
-    background-image: none;
+.App {
+
     width: 100%;
     /* text-align: center; */
   }
 
-
 .header h1 {
-  font-size: 34px;
+  font-size: 45px;
   letter-spacing: 1rem;
   }
 
 .header h3 {
-    font-size: 15px;
+    font-size: 22px;
      letter-spacing: 5px;
   }
   h2 {
-    font-size: 15px;
+    font-size: 25px;
   }
 
-  h4{
-    font-size: 8px;
+  h4 {
+    font-size: 15px;
   }
 
 .city-image {
   margin-bottom: -1rem;
 }
 
+.project-window img {
+  width: 80%;
+}
 
 .main {
-  border: 2rem;
+  border: 1rem solid #012C49;
+  
 }
+
+.navbar-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;}
 
 .navbar {
   width: 70%;
-  display: flex;
+}
 
-flex-direction: row; 
- justify-content: space-between;
+.project-links h1 {
+font-size: 45px;
+}
+
+.project-links h3 {
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
+.project-icons img {
+  width: 20%;
+}
+
+.title-container h1 {
+font-size: 45px;
+}
+
+.title-container h2 {
+font-size: 22px;
+letter-spacing: normal;
 }
 
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 
   .App {
     background-color: red;
     background-image: none;
-    /* text-align: center;
-    width: 100%; */
+    width: 100%;
   }
 
 
 .header h1 {
-  font-size: 32px;
-  letter-spacing: normal;
+  font-size: 80px;
+  letter-spacing: 5px;
   }
 
 .header h3 {
     font-size: 15px;
   }
+
+.main {
+  width: 100%
+}
+
+  .title-container h1{ }
+  
+  .title-container h3 {}
+  
+  
   h2 {
     font-size: 10px;
   }
@@ -377,8 +416,14 @@ flex-direction: row;
     font-size: 18px;
   }
 
+.navbar-container {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+  
+}
 
-  p {
+p {
     font-size: 8px
 
 
