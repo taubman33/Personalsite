@@ -384,8 +384,7 @@ letter-spacing: normal;
 @media only screen and (max-width: 700px) {
 
   .App {
-    background-color: red;
-    background-image: none;
+
     width: 100%;
   }
 
@@ -398,6 +397,13 @@ letter-spacing: normal;
 .header h3 {
     font-size: 15px;
   }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1rem;
+}
 
 
   .main-container {
@@ -413,11 +419,31 @@ letter-spacing: normal;
   margin: 1rem; 
   background-color: #ffe9ca;
   border-radius: 10px}
-  
 
-  .title-container h1{ }
   
-  .title-container h3 {}
+.project-links h1 {
+font-size: 30px;
+letter-spacing: 1px;
+  }
+
+  .project-links h3 {
+
+    font-size:18px
+
+  }
+
+.Projects img {
+  width: 100%
+}
+
+  .title-container h1{  
+    font-size: 35px;
+    letter-spacing: 5px;
+  }
+  
+  .title-container h2 {
+    font-size: 16px
+  }
   
   
   h2 {
