@@ -480,10 +480,14 @@ p {
   }
   
 
-.city-image {
-  margin-bottom: -1rem;
-}
-
+  .city-image {
+    width:100%;
+    margin-bottom: -5px;
+  }
+  
+  .city {
+    width: 100%;
+  }
 }
 
 
