@@ -13,13 +13,14 @@ import Stellar from './projects/Stellar';
 import Comedian from './projects/Comedian';
 
 import City from "./assets/city2.png"
-
+import Navbar from './Nav'
 export default function Main() {
 return (
 
 
 <div className="main-container">
-    
+
+    <Navbar />
 <div className="main">
 
    
