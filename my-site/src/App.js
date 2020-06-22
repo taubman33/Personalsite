@@ -15,6 +15,7 @@ import Stellar from './components/projects/Stellar'
 import Fxdb from './components/projects/Fxdb'
 import Bottom from './components/projects/Bottom'
 import Comedian from './components/projects/Comedian'
+import Park from './components/projects/Park'
 
 
 const routes = [
@@ -50,6 +51,10 @@ const routes = [
   {
     path: "/Projects/Comedian",
     component: Comedian
+  },
+  {
+    path: "/Projects/Park",
+    component: Park
   }
 ];
 

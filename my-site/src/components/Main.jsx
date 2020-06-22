@@ -11,16 +11,16 @@ import Bottom from './projects/Bottom';
 import Fxdb from './projects/Fxdb';
 import Stellar from './projects/Stellar';
 import Comedian from './projects/Comedian';
+import Park from './projects/Park';
 
 import City from "./assets/city2.png"
-import Navbar from './Nav'
 export default function Main() {
 return (
 
 
 <div className="main-container">
 
-    <Navbar />
+
 <div className="main">
 
    
@@ -34,6 +34,7 @@ return (
             <Route exact path="/Projects/Fxdb" component={Fxdb}/>
             <Route exact path="/Projects/Bottom" component={Bottom}/>
             <Route exact path="/Projects/Comedian" component={Comedian}/>
+            <Route exact path="/Projects/Park" component={Park}/>
     
    
             </div> 

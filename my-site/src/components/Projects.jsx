@@ -5,11 +5,13 @@ import BU from './assets/BottomsWindow.jpg'
 import FX from './assets/FXDBbanner.jpg'
 import GH from "./assets/GitHub.png";
 import CW from './assets/ComedWindow.png';
+import PW from './assets/ParkWindow.png'
 
 import Bottom from './projects/Bottom';
 import Fxdb from './projects/Fxdb';
 import Stellar from './projects/Stellar';
 import Comedian from './projects/Comedian';
+import Park from './projects/Park'
 
 
 
@@ -21,6 +23,7 @@ return (
             <Route exact path ="/Projects/Stellar" component={Stellar}/>
             <Route exact path="/Projects/Bottom"component={Bottom}/>
             <Route exact path="/Projects/Comedian"component={Comedian}/>
+            <Route exact path="/Projects/Park"component={Park}/>
 
 
         <div className= "Projects">
@@ -31,6 +34,17 @@ return (
         </div>
 
         <div className= "project-links"> 
+
+
+    {/* ParkSafe */}
+    <div id="project-window" style={{paddingTop: "-3rem", backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
+        <h1>Park Safe</h1>
+        <h3> To safely explore NYC's parks</h3>
+        <Link to='/Projects/Park' >
+        <img src={PW} className="project-link" />
+
+        </Link>
+        </div>
 
 
         {/* P4 */}
