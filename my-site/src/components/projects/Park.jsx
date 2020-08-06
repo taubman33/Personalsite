@@ -19,7 +19,7 @@ return (
 
 
        <div className="project-desc">
-            <p> During the COVID 2020 pandemic, a former classmate and I decided to work on a project that 
+            <p> During the COVID 2020 pandemic, a former classmate and I decided to build a project that 
                 allowed us to rate and measure how safe various park zones in NYC were based on people's
                 social distancing, and wearing of masks.  </p>   
           
