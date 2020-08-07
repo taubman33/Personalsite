@@ -21,7 +21,7 @@ import Park from './components/projects/Park'
 const routes = [
   
   {
-    path: "/AboutMe",
+    path: "/",
     component: AboutMe
   },
   {
