@@ -7,7 +7,7 @@ return (
 <div className= "resume-container">
 
 <div className="title-container">
-<h1> Resume</h1>
+<h1> My Resume</h1>
 </div>
             <div className= "resume">
             

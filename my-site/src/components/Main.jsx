@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as  Route, Link, Switch } from "react-router-dom"
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom"
 
 import Resume from './Resume'
 import AboutMe from './AboutMe'
@@ -14,7 +14,6 @@ import Comedian from './projects/Comedian';
 import Park from './projects/Park';
 
 import City from "./assets/city2.png"
-
 
 
 export default function Main() {

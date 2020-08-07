@@ -3,6 +3,7 @@ import{ BrowserRouter as Route, Link } from 'react-router-dom'
 import SW from './assets/Surgewindow.jpg'
 import BU from './assets/BottomsWindow.jpg'
 import FX from './assets/FXDBbanner.jpg'
+import GH from "./assets/GitHub.png";
 import CW from './assets/ComedWindow.png';
 import PW from './assets/ParkWindow.png'
 
@@ -20,16 +21,16 @@ return (
    <div className="project-container">
             <Route exact path ="/Projects/Fxdb" component={Fxdb}/>
             <Route exact path ="/Projects/Stellar" component={Stellar}/>
-            <Route exact path ="/Projects/Bottom"component={Bottom}/>
-            <Route exact path ="/Projects/Comedian"component={Comedian}/>
-            <Route exact path ="/Projects/Park"component={Park}/>
+            <Route exact path="/Projects/Bottom"component={Bottom}/>
+            <Route exact path="/Projects/Comedian"component={Comedian}/>
+            <Route exact path="/Projects/Park"component={Park}/>
 
 
         <div className= "Projects">
 
         <div className="title-container">    
         <h1>Projects</h1>
-        <h2> Click a link below to learn more</h2>
+        <h2> click a link below to learn more</h2>
         </div>
 
         <div className= "project-links"> 
