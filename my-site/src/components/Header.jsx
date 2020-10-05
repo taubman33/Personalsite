@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from './Nav'
+import Nav from './Nav'
 
 
 function Header () {
@@ -13,7 +13,7 @@ function Header () {
   <h3>NYC Software Engineer</h3>
   
 
-    <Navbar />
+    <Nav />
 
     </div>
     
