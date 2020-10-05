@@ -29,8 +29,8 @@ return (
         <div className= "Projects">
 
         <div className="title-container">    
-        <h1>Projects</h1>
-        <h2> click a link below to learn more</h2>
+        <h1 style ={{fontSize:"7rem"}}>Projects</h1>
+        <h2 style ={{fontWeight:"300"}}> click a link below to learn more</h2>
         </div>
 
         <div className= "project-links"> 
