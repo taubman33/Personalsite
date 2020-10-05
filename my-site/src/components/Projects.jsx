@@ -39,7 +39,7 @@ return (
     {/* ParkSafe */}
     <div id="project-window" style={{paddingTop: "-3rem", backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
         <h1>Park Safe</h1>
-        <h3> To safely explore NYC's parks</h3>
+        <h3> A COVID help site to safely explore the parks of New York City</h3>
         <Link to='/Projects/Park' >
         <img src={PW} className="project-link" />
 
