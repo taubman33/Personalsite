@@ -12,7 +12,6 @@
   /* width: 100%; */
 }
 
-
 .aboutMe {
   margin: 4rem;
   border-radius: 10rem;
@@ -25,13 +24,13 @@
   
 }
 
+.city {
+  width: 100%;
+}
+
 .city-image {
   width:100%;
   margin-bottom: -2em;
-}
-
-.city {
-  width: 100%;
 }
 
 .contact-page {
@@ -47,7 +46,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  }
+}
 
 .form-container {
   margin-top: -3rem;
