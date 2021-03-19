@@ -12,6 +12,7 @@ import Fxdb from './projects/Fxdb';
 import Stellar from './projects/Stellar';
 import Comedian from './projects/Comedian';
 import Park from './projects/Park';
+import Letters from './projects/Letters';
 
 import City from "./assets/city2.png"
 
@@ -37,6 +38,7 @@ return (
             <Route exact path="/Projects/Bottom" component={Bottom}/>
             <Route exact path="/Projects/Comedian" component={Comedian}/>
             <Route exact path="/Projects/Park" component={Park}/>
+            <Route exact path="/Projects/Letters" component={Letters}/>
     
    
             </div> 

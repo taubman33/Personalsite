@@ -9,8 +9,9 @@ import Node from "../assets/Logos/node.png";
 export default function Comedian () {
 return (
 
+
 <div className="Project-card">   
-        <h3>Everyone's A Comedian </h3>
+        <h3>Everyone's a Comedian! </h3>
 
         <div className="project-desc">
         <p> My first project at General Assembly, tasked to create a site linked to an API. I chose the Dad Joke API and built this, an easy way to search for SFW jokes. 

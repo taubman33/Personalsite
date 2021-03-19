@@ -6,12 +6,14 @@ import FX from './assets/FXDBbanner.jpg'
 import GH from "./assets/GitHub.png";
 import CW from './assets/ComedWindow.png';
 import PW from './assets/ParkWindow.png'
+import LW from "./assets/Letters.png"
 
 import Bottom from './projects/Bottom';
 import Fxdb from './projects/Fxdb';
 import Stellar from './projects/Stellar';
 import Comedian from './projects/Comedian';
 import Park from './projects/Park'
+import Letters from './projects/Letters'
 
 
 
@@ -24,6 +26,7 @@ return (
             <Route exact path="/Projects/Bottom"component={Bottom}/>
             <Route exact path="/Projects/Comedian"component={Comedian}/>
             <Route exact path="/Projects/Park"component={Park}/>
+            <Route exact path="/Projects/Letters"component={Letters}/>
 
 
         <div className= "Projects">
@@ -36,10 +39,23 @@ return (
         <div className= "project-links"> 
 
 
+
+
+    {/* Letters */}
+    <div id="project-window" style={{paddingTop: "-3rem", backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
+        <h1>Letters to our next student cohort</h1>
+        <h3> Project built with a few of my students to display letters that they wrote for the next cohort.  React front end with Django back end written in Python</h3>
+        <Link to='/Projects/Letters' >
+        <img src={LW} className="project-link" />
+
+        </Link>
+        </div>
+
+
     {/* ParkSafe */}
     <div id="project-window" style={{paddingTop: "-3rem", backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
         <h1>Park Safe</h1>
-        <h3> A COVID help site to safely explore the parks of New York City</h3>
+        <h3> A COVID help site to safely explore the parks of New York City. React front end with back end created in Ruby on Rails</h3>
         <Link to='/Projects/Park' >
         <img src={PW} className="project-link" />
 
@@ -50,7 +66,7 @@ return (
         {/* P4 */}
         <div id="project-window" style={{paddingTop: "-3rem", backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
         <h1>FXDB</h1>
-        <h3> the Guitar FX Database</h3>
+        <h3> the Guitar FX Database.  React front end with back end created in Ruby on Rails</h3>
         <Link to='/Projects/Fxdb' >
         <img src={FX} className="project-link" />
 
@@ -61,7 +77,7 @@ return (
         {/* P3     */}
         <div id="project-window" style={{backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
         <h1>Stellar</h1>
-       <h3> Orbitz Travel Mockup Site</h3>
+       <h3> Orbitz Travel Mockup Site React front end with back end created with Express and SQL</h3>
         <Link to='/Projects/Stellar' >
         <img src={SW} className="project-link" />
 
