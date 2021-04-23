@@ -140,6 +140,7 @@ border-radius: 10px}
 
 .project-link {
   border-radius: 10px;
+  border: .5rem solid  #92dccd
 }
 
 .project-type {
