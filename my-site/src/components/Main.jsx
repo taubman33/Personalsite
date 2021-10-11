@@ -12,6 +12,7 @@ import Stellar from "./projects/Stellar";
 import Comedian from "./projects/Comedian";
 import Park from "./projects/Park";
 import Letters from "./projects/Letters";
+import Wumb from "./projects/Wumb";
 
 import City from "./assets/city2.png";
 
@@ -30,6 +31,7 @@ export default function Main() {
         <Route exact path="/Projects/Comedian" component={Comedian} />
         <Route exact path="/Projects/Park" component={Park} />
         <Route exact path="/Projects/Letters" component={Letters} />
+        <Route exact path="/Projects/Wumb" component={Wumb} />
       </div>
       <div className="city-image">
         <img src={City} />

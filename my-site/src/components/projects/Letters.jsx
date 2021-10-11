@@ -23,7 +23,7 @@ function Letters(props) {
             </div>
 
             <h2>Click the image below to open link in a new tab</h2>
-            <a href="https://github.com/taubman33/letters" target="_blank">
+            <a href="http://seir-letters.surge.sh/" target="_blank">
             <img src={LW} className="ProjectIcon"  alt="letters"/>
             </a>
 
@@ -39,7 +39,7 @@ function Letters(props) {
                     <img src ={DJ} className="linkIcon" />
                     
                     <br />
-                   <a href="https://github.com/taubman33/Comedian" target="_blank">
+                   <a href="https://github.com/taubman33/studentlettersFE" target="_blank">
                     <img src={GH} className="linkIcon" />
                   </a> 
                   <h2> Link to GitHub Repo</h2>    

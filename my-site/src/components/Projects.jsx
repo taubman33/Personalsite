@@ -7,6 +7,7 @@ import GH from "./assets/GitHub.png";
 import CW from './assets/ComedWindow.png';
 import PW from './assets/ParkWindow.png'
 import LW from "./assets/Letters.png"
+import W1 from "./assets/Wumb1.png"
 
 import Bottom from './projects/Bottom';
 import Fxdb from './projects/Fxdb';
@@ -21,14 +22,7 @@ function Projects () {
 return (
 
    <div className="project-container">
-            <Route exact path ="/Projects/Fxdb" component={Fxdb}/>
-            <Route exact path ="/Projects/Stellar" component={Stellar}/>
-            <Route exact path="/Projects/Bottom"component={Bottom}/>
-            <Route exact path="/Projects/Comedian"component={Comedian}/>
-            <Route exact path="/Projects/Park"component={Park}/>
-            <Route exact path="/Projects/Letters"component={Letters}/>
-
-
+     
         <div className= "Projects">
 
         <div className="title-container">    
@@ -38,6 +32,16 @@ return (
 
         <div className= "project-links"> 
 
+
+    {/* Wumb */}
+    <div id="project-window" style={{paddingTop: "-3rem", backgroundColor:"#012C49", padding:"3rem", marginBottom: "2rem"}}>
+        <h1>WUMB Listen</h1>
+        <h3> Pulling the recent playlists from the UM Boston radio station and connecting them to the Youtube API, giving users the ability to hear and save songs they've heard on the radio</h3>
+        <Link to='/Projects/Wumb' >
+        <img src={W1} className="project-link" />
+
+        </Link>
+        </div>
 
 
 
