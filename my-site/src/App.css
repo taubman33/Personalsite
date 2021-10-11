@@ -3,7 +3,8 @@
 .App {
   width: 100%;
   text-align: center;
-  background-image: url('./components/assets/sand.jpg');
+  /* background-image: url('./components/assets/sand.jpg'); */
+  background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -183,6 +184,7 @@ header h1 {
 font-size: 72px;
 letter-spacing: 3rem;
 text-shadow: 1px 1px grey;
+animation: intro 1s ease-in forwards;
 
 }  
 
