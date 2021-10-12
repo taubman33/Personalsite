@@ -60,13 +60,7 @@ header {
   padding: 2rem;
 }
 
-header h1 {
-  font-size: 2em;
-}
 
-header h3 {
-  font-size: 1.5em;
-}
 
 img {
   width: 60%;
@@ -168,6 +162,11 @@ img {
   margin-bottom: 3rem;
 }
 
+#resume {
+  border: 1rem solid #012c49;
+  border-radius: 10px;
+}
+
 .resume-container {
   margin-top: 40px;
   height: 60%;
@@ -193,11 +192,20 @@ h1 {
   letter-spacing: 15px;
 }
 
+.navbar h4 {
+  font-size: 1.5rem;
+  font-weight:300
+}
+
 header h1 {
-  font-size: 72px;
+  font-size: 3.4em;
   letter-spacing: 3rem;
   text-shadow: 1px 1px grey;
   animation: intro 1s ease-in forwards;
+}
+
+header h3 {
+  font-size: 1.5em;
 }
 
 .project-text h1 {
@@ -379,6 +387,10 @@ p {
     width: 20%;
   }
 
+
+  .project-text h3 {
+    display: none; 
+  }
   .title-container h1 {
     font-size: 45px;
   }
@@ -387,6 +399,7 @@ p {
     font-size: 22px;
     letter-spacing: normal;
   }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -461,6 +474,8 @@ p {
   h2 {
     font-size: 10px;
   }
+
+  
   h4 {
     font-size: 18px;
   }

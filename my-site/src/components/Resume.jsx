@@ -10,7 +10,7 @@ return (
 </div>
             <div className= "resume">
             
-            <img src={Resume1} alt="resume-picture" />
+            <img src={Resume1} alt="resume" id="resume" />
 
             </div>
 

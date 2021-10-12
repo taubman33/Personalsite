@@ -1,20 +1,12 @@
 import React from "react";
-import { BrowserRouter as Route, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import SW from "./assets/Surgewindow.jpg";
 import BU from "./assets/BottomsWindow.jpg";
 import FX from "./assets/FXDBbanner.jpg";
-import GH from "./assets/GitHub.png";
 import CW from "./assets/ComedWindow.png";
 import PW from "./assets/ParkWindow.png";
 import LW from "./assets/Letters.png";
 import W1 from "./assets/Wumb1.png";
-
-import Bottom from "./projects/Bottom";
-import Fxdb from "./projects/Fxdb";
-import Stellar from "./projects/Stellar";
-import Comedian from "./projects/Comedian";
-import Park from "./projects/Park";
-import Letters from "./projects/Letters";
 
 function Projects() {
 
@@ -26,7 +18,7 @@ function Projects() {
       <div className="Projects">
         <div className="title-container">
           <h1>Projects</h1>
-          <h2> click a link below to learn more</h2>
+          <h2> click a link to learn more</h2>
         </div>
 
         <div className="project-links">
@@ -37,7 +29,7 @@ function Projects() {
         <div className="project-text">
             <h1>WUMB Listen</h1>
             <h3>
-              Pulling the recent playlists from the UM Boston radio station and
+              Pulling recent playlists from the UM Boston radio station and
               connecting them to the Youtube API, giving users the ability to
               hear and save songs they've heard on the radio
             </h3>
@@ -52,8 +44,8 @@ function Projects() {
           {/* Letters */}
           <div className="project-window" >
             <div className="project-text">
-            <h1>Letters to our next student cohort</h1>
-            <h3> Project built with a few of my students to display letters that were written for the next cohort at GA.
+            <h1>Letters to our Future Students</h1>
+            <h3>  Built with a few former students to display letters that were written for my next cohort at GA.
             </h3>
 
             </div>
@@ -67,7 +59,8 @@ function Projects() {
             <div className="project-text">
             <h1>Park Safe</h1>
             <h3>
-              A COVID help site to safely explore the parks of New York City. React front end with back end created in Ruby on Rails
+              A site to help users safely explore the parks of New York City during the COVID lockdowns.
+              
             </h3>
             </div>
 
@@ -81,8 +74,7 @@ function Projects() {
           <div className="project-window">
             <div className="project-text">
             <h1>FXDB</h1>
-            <h3> the Guitar FX Database. React front end with back end created in
-              Ruby on Rails
+            <h3> The Guitar Effects Database
             </h3>
 
             </div>
@@ -95,8 +87,7 @@ function Projects() {
           <div className="project-window">
             <div className="project-text">
             <h1>Stellar</h1>
-            <h3> Orbitz Travel Mockup Site React front end with back end created
-              with Express and SQL
+            <h3> Orbitz Travel Mockup Site
             </h3>
             </div>
             <Link to="/Projects/Stellar">
@@ -105,7 +96,7 @@ function Projects() {
           </div>
 
           {/* P2 */}
-          <div className="project-window" >
+          {/* <div className="project-window" >
             <div className="project-text">
             <h1>Bottoms Up</h1>
             <h3>For lovers of a good libation</h3>
@@ -113,10 +104,10 @@ function Projects() {
             <Link to="/Projects/Bottom">
               <img src={BU} alt="link" className="project-link" />
             </Link>
-          </div>
+          </div> */}
 
           {/* P1 */}
-          <div className="project-window">
+          {/* <div className="project-window">
             <div className="project-text">
             <h1>Everyone's A Comedian</h1>
             <h3>When you just need that joke</h3>
@@ -126,10 +117,10 @@ function Projects() {
               <img src={CW} alt="link" className="project-link" />
             </Link>
           </div>
-        </div>
+       */}
 
 
-
+</div>
       </div>
 
 
