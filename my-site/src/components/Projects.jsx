@@ -17,6 +17,8 @@ import Park from "./projects/Park";
 import Letters from "./projects/Letters";
 
 function Projects() {
+
+
   return (
     <div className="project-container">
 
@@ -30,14 +32,11 @@ function Projects() {
         <div className="project-links">
 
           {/* Wumb */}
-          <div
-            className="project-window"
-          >
+          <div className="project-window">
 
-<div className="project-text">
+        <div className="project-text">
             <h1>WUMB Listen</h1>
             <h3>
-    
               Pulling the recent playlists from the UM Boston radio station and
               connecting them to the Youtube API, giving users the ability to
               hear and save songs they've heard on the radio
@@ -51,16 +50,10 @@ function Projects() {
           </div>
 
           {/* Letters */}
-          <div
-            className="project-window"
-    
-          >
+          <div className="project-window" >
             <div className="project-text">
             <h1>Letters to our next student cohort</h1>
-            <h3>
-              Project built with a few of my students to display letters that
-              they wrote for the next cohort. React front end with Django back
-              end written in Python
+            <h3> Project built with a few of my students to display letters that were written for the next cohort. React front end with Django backend written in Python
             </h3>
 
             </div>
@@ -70,15 +63,11 @@ function Projects() {
           </div>
 
           {/* ParkSafe */}
-          <div
-            className="project-window"
-  
-          >
+          <div className="project-window">
             <div className="project-text">
             <h1>Park Safe</h1>
             <h3>
-              A COVID help site to safely explore the parks of New York City.
-              React front end with back end created in Ruby on Rails
+              A COVID help site to safely explore the parks of New York City. React front end with back end created in Ruby on Rails
             </h3>
             </div>
 
@@ -88,7 +77,7 @@ function Projects() {
             </Link>
           </div>
 
-          {/* P4 */}
+          {/* FXDB */}
           <div
             className="project-window"
            
@@ -161,5 +150,4 @@ function Projects() {
     </div>
   );
 }
-
 export default Projects;

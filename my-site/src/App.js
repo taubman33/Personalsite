@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { BrowserRouter as  Router, Route, Switch, Link } from "react-router-dom";
+import React from "react";
+
 import './App.css';
 import Header from './components/Header' 
 import Main from './components/Main'
@@ -18,51 +18,10 @@ import Comedian from './components/projects/Comedian'
 import Park from './components/projects/Park'
 
 
-const routes = [
-  
-  {
-    path: "/AboutMe",
-    component: AboutMe
-  },
-  {
-    path: "/Resume",
-    component: Resume
-  },
-  {
-    path: "/Projects",
-    component: Projects
-  },
-  {
-    path: "/Contact",
-    component: Contact
-  },
-  {
-    path: "/Projects/Stellar",
-    component: Stellar
-  },
-  {
-    path: "/Projects/Fxdb",
-    component: Fxdb
-  },
-  {
-    path: "/Projects/Bottom",
-    component: Bottom
-  },
-  {
-    path: "/Projects/Comedian",
-    component: Comedian
-  },
-  {
-    path: "/Projects/Park",
-    component: Park
-  }
-];
+function App() {
 
-class App extends Component {
-  render() {
   return (
 
-  <Router> 
 
         <div className="App">
 
@@ -83,11 +42,10 @@ class App extends Component {
    </div>
 
  
-  </Router>
+
 
   );  
  }
-}
 
 
 export default App;
