@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link} from 'react-router-dom'
 import CSSlogo from '../assets/Logos/css.svg';
 import ReactLogo from '../assets/Logos/react.svg';
 import GH from "../assets/GitHub.png";
@@ -33,18 +34,19 @@ function Letters(props) {
                 <div className ="languageIcons"> 
 
                 <div className="project-icons">
-                    <img src ={CSSlogo} className="linkIcon" />
-                    <img src ={ReactLogo} className="linkIcon" />
-                    <img src ={Py} className="linkIcon" />
-                    <img src ={DJ} className="linkIcon" />
+                    <img src ={CSSlogo} alt="icon" className="linkIcon" />
+                    <img src ={ReactLogo} alt="icon" className="linkIcon" />
+                    <img src ={Py} alt="icon" className="linkIcon" />
+                    <img src ={DJ} alt="icon" className="linkIcon" />
                     
                     <br />
                    <a href="https://github.com/taubman33/studentlettersFE" target="_blank">
-                    <img src={GH} className="linkIcon" />
+                    <img src={GH} alt="icon"  className="linkIcon" />
                   </a> 
                   <h2> Link to GitHub Repo</h2>    
             </div>
           </div>
+          <Link to ="/projects"> Back to Projects Page</Link>
        </div>   
        </div>  
     );

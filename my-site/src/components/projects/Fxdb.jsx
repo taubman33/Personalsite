@@ -13,7 +13,7 @@ return (
 
 <div className="Project-card"> 
 <div className ="project-title-container"> 
-    <h3>FXDB </h3>
+    <h1>FXDB </h1>
     <h2>The Guitar Effects Database</h2>
 </div>
 
@@ -35,10 +35,11 @@ return (
              <div className= "languageIcons">
             
                         <div className="project-icons">
-                            <img src ={CSSlogo} className="linkIcon" />
-                            <img src ={ReactLogo} className="linkIcon" />
-                            <img src ={SQL} className="linkIcon" /> 
-                            <img src ={Rails} className="linkIcon" />
+                            <img src ={ReactLogo} alt="icon"  className="linkIcon" />
+                            <img src ={CSSlogo} alt="icon" className="linkIcon" />
+                            <img src ={ReactLogo} alt="icon" className="linkIcon" />
+                            <img src ={SQL} alt="icon" className="linkIcon" /> 
+                            <img src ={Rails} alt="icon" className="linkIcon" />
 
                             <br />
                         <a href="https://github.com/taubman33/FXDB" target="_blank">
@@ -49,6 +50,7 @@ return (
                         <h2> Link to GitHub Repo</h2>
                         </div>
               </div>
+              <Link to ="/projects"> Back to Projects Page</Link>
               </div>
  </div>       
  )

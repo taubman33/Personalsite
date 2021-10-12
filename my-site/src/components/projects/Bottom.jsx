@@ -10,7 +10,7 @@ function Bottom () {
 return (
 <div className="Project-card">
 
-                    <h3>Bottoms Up!</h3>
+                    <h1>Bottoms Up!</h1>
                     <h2>React Cocktail Recipe and Information App</h2>
 
                         <div className="project-desc">
@@ -28,15 +28,16 @@ return (
                         <div className= "languageIcons">
 
                         <div className ="project-icons">
-                            <img src ={CSSlogo} className="linkIcon" />
-                            <img src ={ReactLogo} className="linkIcon" />
-                            <img src ={SQL} className="linkIcon" />
+                            <img src ={CSSlogo} alt="icon" className="linkIcon" />
+                            <img src ={ReactLogo} alt="icon" className="linkIcon" />
+                            <img src ={SQL} alt="icon" className="linkIcon" />
                             <br />
                           <a href="https://github.com/taubman33/bottomsup" target="_blank">
-                              <img src={GH} className="linkIcon" />
+                              <img src={GH} alt="icon" className="linkIcon" />
                           </a>
                  </div>      
                  </div>
+                 <Link to ="/"> Back to Projects Page</Link>
           </div>
      </div>
  )

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Link} from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import SW from '../assets/Surgewindow.jpg'
 import CSSlogo from '../assets/Logos/css.svg'
 import SQL from'../assets/Logos/sql.svg'
@@ -31,17 +31,18 @@ return (
             <div className= "languageIcons">
 
             <div className="project-icons">
-                <img src ={CSSlogo} className="linkIcon" />
-                <img src ={ReactLogo} className="linkIcon" />
-                <img src ={SQL} className="linkIcon" />
+                <img src ={CSSlogo} alt="icon" className="linkIcon" />
+                <img src ={ReactLogo} alt="icon" className="linkIcon" />
+                <img src ={SQL} alt="icon" className="linkIcon" />
 
                 <br />
                     <a href="https://github.com/taubman33/Stellar" target="_blank">
-                       <img src={GH} className="linkIcon" />
+                       <img src={GH} alt="icon" className="linkIcon" />
                      </a>
              </div>
             
             </div> 
+            <Link to ="/projects"> Back to Projects Page</Link>
 
         </div>
      </div>

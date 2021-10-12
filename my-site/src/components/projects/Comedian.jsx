@@ -11,7 +11,7 @@ return (
 
 
 <div className="Project-card">   
-        <h3>Everyone's a Comedian! </h3>
+        <h1>Everyone's a Comedian! </h1>
 
         <div className="project-desc">
         <p> My first project at General Assembly, tasked to create a site linked to an API. I chose the Dad Joke API and built this, an easy way to search for SFW jokes. 
@@ -33,16 +33,18 @@ return (
                 <div className ="languageIcons"> 
 
                 <div className="project-icons">
-                    <img src ={CSSlogo} className="linkIcon" />
-                    <img src ={Node} className="linkIcon" />
-                    <img src ={ReactLogo} className="linkIcon" />
+                    <img src ={CSSlogo} alt="icon"className="linkIcon" />
+                    <img src ={Node} alt="icon" className="linkIcon" />
+                    <img src ={ReactLogo}  alt="icon" className="linkIcon" />
                     
                     <br />
                    <a href="https://github.com/taubman33/Comedian" target="_blank">
-                    <img src={GH} className="linkIcon" />
+                    <img src={GH} alt="icon" className="linkIcon" />
                   </a> 
                   <h2> Link to GitHub Repo</h2>    
             </div>
+
+            <Link to ="/"> Back to Projects Page</Link>
           </div>
        </div>     
 </div>

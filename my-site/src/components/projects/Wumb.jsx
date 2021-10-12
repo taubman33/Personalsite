@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import CSSlogo from '../assets/Logos/css.svg';
 import ReactLogo from '../assets/Logos/react.svg';
 import GH from "../assets/GitHub.png";
@@ -11,10 +12,10 @@ import Py from "../assets/Logos/PySVG.svg"
 function Wumb(props) {
     return (
 <div className="Project-card">   
-        <h3>WUMB Listen </h3>
+        <h1>WUMB Listen </h1>
         <div className="project-desc">
         <p>
-        Built with my co-teacher and a previous student, WUMB Listen pulls data from the UM Boston radio station,
+        Built with a fellow instructor and one of our previous student, WUMB Listen pulls data from the UM Boston radio station,
         displaying the song title, recording artist, length of the song, as well as the top Youtube video.
         Users can search through the calendar and go through the times to find a Youtube video of that great song they heard driving earlier.     
        </p>   
@@ -33,18 +34,20 @@ function Wumb(props) {
                 <div className ="languageIcons"> 
 
                 <div className="project-icons">
-                    <img src ={CSSlogo} className="linkIcon" />
-                    <img src ={ReactLogo} className="linkIcon" />
-                    <img src ={Py} className="linkIcon" />
-                    <img src ={DJ} className="linkIcon" />
+                    <img src ={CSSlogo} alt="icon" className="linkIcon" />
+                    <img src ={ReactLogo} alt="icon" className="linkIcon" />
+                    <img src ={Py} alt="icon"  className="linkIcon" />
+                    <img src ={DJ} alt="icon" className="linkIcon" />
                     
                     <br />
                    <a href="https://github.com/taubman33/wumb-front" target="_blank">
-                    <img src={GH} className="linkIcon" />
+                    <img src={GH} alt="icon" className="linkIcon" />
                   </a> 
                   <h2> Link to GitHub Repo</h2>    
             </div>
           </div>
+
+          <Link to ="/projects"> Back to Projects Page</Link>
        </div>   
        </div>  
     );

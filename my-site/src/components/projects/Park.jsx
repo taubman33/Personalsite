@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Link} from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import ParkWindow from '../assets/ParkWindow.png';
 import CSSlogo from '../assets/Logos/css.svg';
 import Rails from '../assets/Logos/RailsLogo.svg';
@@ -35,20 +35,22 @@ return (
              <div className= "languageIcons">
             
                         <div className="project-icons">
-                            <img src ={CSSlogo} className="linkIcon" />
-                            <img src ={ReactLogo} className="linkIcon" />
-                            <img src ={SQL} className="linkIcon" /> 
-                            <img src ={Rails} className="linkIcon" />
+                            <img src ={CSSlogo} alt="icon" className="linkIcon" />
+                            <img src ={ReactLogo} alt="icon" className="linkIcon" />
+                            <img src ={SQL}  alt="icon" className="linkIcon" /> 
+                            <img src ={Rails} alt="icon" className="linkIcon" />
 
                             <br />
                         <a href="https://github.com/taubman33/covidparkapp" target="_blank">
-                            <img src={GH} className="linkIcon" />
+                            <img src={GH} alt="icon" className="linkIcon" />
                         </a>
 
                         
                         <h2> Link to GitHub Repo</h2>
                         </div>
               </div>
+
+              <Link to ="/projects"> Back to Projects Page</Link>
               </div>
  </div>       
  )
