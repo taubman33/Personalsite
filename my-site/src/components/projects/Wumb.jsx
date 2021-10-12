@@ -14,7 +14,7 @@ function Wumb(props) {
         <h3>WUMB Listen </h3>
         <div className="project-desc">
         <p>
-        Build with my co-teacher and a previous student, WUMB Listen pulls data from the UM Boston radio station,
+        Built with my co-teacher and a previous student, WUMB Listen pulls data from the UM Boston radio station,
         displaying the song title, recording artist, length of the song, as well as the top Youtube video.
         Users can search through the calendar and go through the times to find a Youtube video of that great song they heard driving earlier.     
        </p>   

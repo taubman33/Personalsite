@@ -53,7 +53,7 @@ function Projects() {
           <div className="project-window" >
             <div className="project-text">
             <h1>Letters to our next student cohort</h1>
-            <h3> Project built with a few of my students to display letters that were written for the next cohort. React front end with Django backend written in Python
+            <h3> Project built with a few of my students to display letters that were written for the next cohort at GA.
             </h3>
 
             </div>
@@ -71,22 +71,17 @@ function Projects() {
             </h3>
             </div>
 
-            
+           
             <Link to="/Projects/Park">
               <img src={PW} alt="link" className="project-link" />
             </Link>
           </div>
 
           {/* FXDB */}
-          <div
-            className="project-window"
-           
-          >
+          <div className="project-window">
             <div className="project-text">
             <h1>FXDB</h1>
-            <h3>
-         
-              the Guitar FX Database. React front end with back end created in
+            <h3> the Guitar FX Database. React front end with back end created in
               Ruby on Rails
             </h3>
 
@@ -97,15 +92,10 @@ function Projects() {
           </div>
 
           {/* P3     */}
-          <div
-            className="project-window"
-           
-          >
+          <div className="project-window">
             <div className="project-text">
             <h1>Stellar</h1>
-            <h3>
-        
-              Orbitz Travel Mockup Site React front end with back end created
+            <h3> Orbitz Travel Mockup Site React front end with back end created
               with Express and SQL
             </h3>
             </div>
@@ -115,11 +105,7 @@ function Projects() {
           </div>
 
           {/* P2 */}
-
-          <div
-             className="project-window"
-    
-          >
+          <div className="project-window" >
             <div className="project-text">
             <h1>Bottoms Up</h1>
             <h3>For lovers of a good libation</h3>
@@ -130,10 +116,7 @@ function Projects() {
           </div>
 
           {/* P1 */}
-
-          <div
-            className="project-window"
-          >
+          <div className="project-window">
             <div className="project-text">
             <h1>Everyone's A Comedian</h1>
             <h3>When you just need that joke</h3>
@@ -144,6 +127,9 @@ function Projects() {
             </Link>
           </div>
         </div>
+
+
+
       </div>
 
 
