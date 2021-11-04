@@ -1,4 +1,5 @@
 import React from "react";
+import './Projects.css'
 import {  Link } from "react-router-dom";
 import SW from "./assets/Surgewindow.jpg";
 import BU from "./assets/BottomsWindow.jpg";
@@ -12,118 +13,84 @@ function Projects() {
 
 
   return (
-    <div className="project-container">
+    <div className="carousel-container">
+      <div className="slider">
+        <a href="#slide-1">LW</a>
+        <a href="#slide-2">NC</a>
+        <a href="#slide-3">PS</a>
+        <a href="#slide-4">FX</a>
+        <a href="#slide-5">ST</a>
 
+        <div className="slides">
 
-      <div className="Projects">
-        <div className="title-container">
-          <h1>Projects</h1>
-          <h2> click a link to learn more</h2>
-        </div>
+          <div className="slide" id="slide-1 wumb">
 
-        <div className="project-links">
-
-          {/* Wumb */}
-          <div className="project-window">
-
-        <div className="project-text">
-            <h1>WUMB Listen</h1>
-            <h3>
-              Pulling recent playlists from the UM Boston radio station and
-              connecting them to the Youtube API, giving users the ability to
-              hear and save songs they've heard on the radio
-            </h3>
-
+            <div className="carousel-text-container">
+              <h1> Listen-Wumb</h1>
+              <p> Pulling Youtube videos from WUMB Radio playlist. <br/> Built on the MERN stack.</p>
             </div>
 
-            <Link to="/Projects/Wumb">
-              <img src={W1} alt="link" className="project-link" />
-            </Link>
+            <div className="icon-container">
+            <Link to="/Projects/Wumb"> <img src={W1} alt="icon" className="carousel-icon" /> </Link>
+            </div> 
+
           </div>
 
-          {/* Letters */}
-          <div className="project-window" >
-            <div className="project-text">
-            <h1>Letters to our Future Students</h1>
-            <h3>  Built with a few former students to display letters that were written for my next cohort at GA.
-            </h3>
 
+          <div className="slide" id="slide-2 letters">
+
+            <div className="carousel-text-container">
+              <h1> Letters to our Future Students  </h1>
+              <p> Letters written by our students on our final day of class to give our next class. <br/> Built in Django and React.</p>
             </div>
+
+            <div className="icon-container">
             <Link to="/Projects/Letters">
-              <img src={LW} alt="link" className="project-link" />
+              <img src={LW} alt="icon" className="carousel-icon big" />
             </Link>
+            </div>
+        
+
           </div>
 
-          {/* ParkSafe */}
-          <div className="project-window">
-            <div className="project-text">
-            <h1>Park Safe</h1>
-            <h3>
-              A site to help users safely explore the parks of New York City during the COVID lockdowns.
-              
-            </h3>
+          <div className="slide" id="slide-3 park">
+            <div className="carousel-text-container">
+              <h1>Park Safe</h1>
+              <p> A helpful aid for exploring New York City parks during the COVID 19 scare <br/> Built in React and Ruby on Rails</p>
             </div>
-
-           
             <Link to="/Projects/Park">
-              <img src={PW} alt="link" className="project-link" />
+              <img src={PW} alt="icon" className="carousel-icon big" />
             </Link>
           </div>
 
-          {/* FXDB */}
-          <div className="project-window">
-            <div className="project-text">
-            <h1>FXDB</h1>
-            <h3> The Guitar Effects Database
-            </h3>
 
+          <div className="slide" id="slide-4 fxdb">
+            <div className="carousel-text-container">
+              <h1> FXDB</h1>
+              <p> The Guitar FX Database <br/> Built in React and Ruby on Rails</p>
             </div>
-            <Link to="/Projects/Fxdb">
-              <img src={FX} alt="link" className="project-link" />
+            <div className="icon-container">
+            <Link to="/Projects/fxdb">
+              <img src={FX} alt="icon" className="carousel-icon" />
             </Link>
+            </div>
           </div>
 
-          {/* P3     */}
-          <div className="project-window">
-            <div className="project-text">
-            <h1>Stellar</h1>
-            <h3> Orbitz Travel Mockup Site
-            </h3>
+
+          <div className="slide" id="slide-5 stellar">
+            <div className="carousel-text-container">
+              <h1> Stellar</h1>
+              <p> Mock version of Stellar Travel site <br/> Built on the MERN stack</p>
             </div>
+            <div className="icon-container">
             <Link to="/Projects/Stellar">
-              <img src={SW} alt="link" className="project-link" />
+              <img src={SW} alt="icon" className="carousel-icon" />
             </Link>
-          </div>
-
-          {/* P2 */}
-          {/* <div className="project-window" >
-            <div className="project-text">
-            <h1>Bottoms Up</h1>
-            <h3>For lovers of a good libation</h3>
             </div>
-            <Link to="/Projects/Bottom">
-              <img src={BU} alt="link" className="project-link" />
-            </Link>
-          </div> */}
-
-          {/* P1 */}
-          {/* <div className="project-window">
-            <div className="project-text">
-            <h1>Everyone's A Comedian</h1>
-            <h3>When you just need that joke</h3>
-
-            </div>
-            <Link to="/Projects/Comedian">
-              <img src={CW} alt="link" className="project-link" />
-            </Link>
           </div>
-       */}
-
-
-</div>
+    
+        </div>
       </div>
-
-
     </div>
   );
 }
