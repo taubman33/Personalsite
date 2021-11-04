@@ -5,7 +5,7 @@ import Resume from "./Resume";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Contact from "./Contact";
-
+import Dummy from "./Dummy"
 import Bottom from "./projects/Bottom";
 import Fxdb from "./projects/Fxdb";
 import Stellar from "./projects/Stellar";
@@ -25,7 +25,7 @@ export default function Main() {
         <Route exact path="/Projects" render={Projects} />
         <Route exact path="/Contact" render={Contact} />
         
-      
+        <Route exact path="/dummy" render={Dummy} />
 
         <Route exact path="/Projects/Stellar" component={Stellar} />
         <Route exact path="/Projects/Fxdb" component={Fxdb} />
