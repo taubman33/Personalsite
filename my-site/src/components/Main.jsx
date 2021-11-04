@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import {Route } from "react-router-dom";
 
 import Resume from "./Resume";
 import AboutMe from "./AboutMe";
@@ -20,10 +20,12 @@ export default function Main() {
   return (
     <div className="main-container">
       <div className="main">
-        <Route exact path="/" component={AboutMe} />
-        <Route exact path="/Resume" component={Resume} />
-        <Route exact path="/Projects" component={Projects} />
-        <Route exact path="/Contact" component={Contact} />
+        <Route exact path="/" render={AboutMe} />
+        <Route exact path="/Resume" render={Resume} />
+        <Route exact path="/Projects" render={Projects} />
+        <Route exact path="/Contact" render={Contact} />
+        
+      
 
         <Route exact path="/Projects/Stellar" component={Stellar} />
         <Route exact path="/Projects/Fxdb" component={Fxdb} />

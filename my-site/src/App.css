@@ -4,7 +4,7 @@
   width: 100%;
   text-align: center;
   /* background-image: url('./components/assets/sand.jpg'); */
-  background-color: #6c8e87;
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -139,7 +139,7 @@ img {
 
 .project-link {
   border-radius: 10px;
-  border: 0.5rem solid #6c8e87;
+  border: 0.5rem solid #80d0c7;
 }
 
 .project-links {
@@ -151,7 +151,7 @@ img {
 .project-window {
   padding-top: -3rem;
   background-color: #012c49;
-  border: 1rem solid #6c8e87;
+  border: 1rem solid #13547a;
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: 5%;

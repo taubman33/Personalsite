@@ -6,18 +6,6 @@ import Main from './components/Main'
 import Footer from './components/Footer'
 
 
-import AboutMe from './components/AboutMe'
-import Resume from './components/Resume'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-
-import Stellar from './components/projects/Stellar'
-import Fxdb from './components/projects/Fxdb'
-import Bottom from './components/projects/Bottom'
-import Comedian from './components/projects/Comedian'
-import Park from './components/projects/Park'
-
-
 function App() {
 
   return (
