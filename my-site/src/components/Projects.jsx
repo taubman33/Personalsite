@@ -2,9 +2,7 @@ import React from "react";
 import './Projects.css'
 import {  Link } from "react-router-dom";
 import SW from "./assets/Surgewindow.jpg";
-import BU from "./assets/BottomsWindow.jpg";
 import FX from "./assets/FXDBbanner.jpg";
-import CW from "./assets/ComedWindow.png";
 import PW from "./assets/ParkWindow.png";
 import LW from "./assets/Letters.png";
 import W1 from "./assets/Wumb1.png";
@@ -15,12 +13,14 @@ function Projects() {
   return (
     <div className="carousel-container">
       <div className="slider">
-        <a href="#slide-1">LW</a>
-        <a href="#slide-2">NC</a>
-        <a href="#slide-3">PS</a>
-        <a href="#slide-4">FX</a>
-        <a href="#slide-5">ST</a>
 
+{/* 
+        <a id="slider-button" href="#slide-1">LW</a>
+        <a id="slider-button" href="#slide-2">NC</a>
+        <a id="slider-button" href="#slide-3">PS</a>
+        <a id="slider-button" href="#slide-4">FX</a>
+        <a id="slider-button" href="#slide-5">ST</a>
+      */}
         <div className="slides">
 
           <div className="slide" id="slide-1 wumb">
@@ -90,7 +90,10 @@ function Projects() {
           </div>
     
         </div>
+
       </div>
+
+
     </div>
   );
 }

@@ -35,8 +35,6 @@ return (
              <div className= "languageIcons">
             
                         <div className="project-icons">
-                            <img src ={ReactLogo} alt="icon"  className="linkIcon" />
-                            <img src ={CSSlogo} alt="icon" className="linkIcon" />
                             <img src ={ReactLogo} alt="icon" className="linkIcon" />
                             <img src ={SQL} alt="icon" className="linkIcon" /> 
                             <img src ={Rails} alt="icon" className="linkIcon" />

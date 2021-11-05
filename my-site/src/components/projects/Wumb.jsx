@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import CSSlogo from '../assets/Logos/css.svg';
 import ReactLogo from '../assets/Logos/react.svg';
 import GH from "../assets/GitHub.png";
 import W1 from "../assets/Wumb1.png"
 import DJ from "../assets/Logos/DJSVG.svg"
-import Py from "../assets/Logos/PySVG.svg"
 
 
 
@@ -34,9 +32,7 @@ function Wumb(props) {
                 <div className ="languageIcons"> 
 
                 <div className="project-icons">
-                    <img src ={CSSlogo} alt="icon" className="linkIcon" />
                     <img src ={ReactLogo} alt="icon" className="linkIcon" />
-                    <img src ={Py} alt="icon"  className="linkIcon" />
                     <img src ={DJ} alt="icon" className="linkIcon" />
                     
                     <br />

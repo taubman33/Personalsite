@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link} from 'react-router-dom'
 import SW from '../assets/Surgewindow.jpg'
-import CSSlogo from '../assets/Logos/css.svg'
 import SQL from'../assets/Logos/sql.svg'
 import ReactLogo from '../assets/Logos/react.svg'
 import GH from "../assets/GitHub.png";
@@ -31,7 +30,6 @@ return (
             <div className= "languageIcons">
 
             <div className="project-icons">
-                <img src ={CSSlogo} alt="icon" className="linkIcon" />
                 <img src ={ReactLogo} alt="icon" className="linkIcon" />
                 <img src ={SQL} alt="icon" className="linkIcon" />
 

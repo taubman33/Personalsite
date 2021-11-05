@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link} from 'react-router-dom'
-import CSSlogo from '../assets/Logos/css.svg';
 import ReactLogo from '../assets/Logos/react.svg';
 import GH from "../assets/GitHub.png";
 import LW from "../assets/Letters.png"
@@ -34,7 +33,6 @@ function Letters(props) {
                 <div className ="languageIcons"> 
 
                 <div className="project-icons">
-                    <img src ={CSSlogo} alt="icon" className="linkIcon" />
                     <img src ={ReactLogo} alt="icon" className="linkIcon" />
                     <img src ={Py} alt="icon" className="linkIcon" />
                     <img src ={DJ} alt="icon" className="linkIcon" />

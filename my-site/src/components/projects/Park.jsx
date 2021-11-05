@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link} from 'react-router-dom'
 import ParkWindow from '../assets/ParkWindow.png';
-import CSSlogo from '../assets/Logos/css.svg';
 import Rails from '../assets/Logos/RailsLogo.svg';
-import Ruby from '../assets/Logos/ruby.svg';
 import ReactLogo from '../assets/Logos/react.svg';
 import SQL from'../assets/Logos/sql.svg';
-import GH from "../assets/GitHub.png";
+import GH from "../assets/GitHub2.png";
 
 export default function Park () {
 return (
@@ -35,7 +33,7 @@ return (
              <div className= "languageIcons">
             
                         <div className="project-icons">
-                            <img src ={CSSlogo} alt="icon" className="linkIcon" />
+                       
                             <img src ={ReactLogo} alt="icon" className="linkIcon" />
                             <img src ={SQL}  alt="icon" className="linkIcon" /> 
                             <img src ={Rails} alt="icon" className="linkIcon" />
