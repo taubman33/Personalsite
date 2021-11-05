@@ -1,19 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Link} from 'react-router-dom'
+import { Link} from 'react-router-dom'
 import FX from '../assets/FXDBbanner.jpg';
-import CSSlogo from '../assets/Logos/css.svg';
 import Rails from '../assets/Logos/RailsLogo.svg';
-import Ruby from '../assets/Logos/ruby.svg';
 import ReactLogo from '../assets/Logos/react.svg';
-import SQL from'../assets/Logos/sql.svg';
-import GH from "../assets/GitHub.png";
+import GH from "../assets/GitHub2.png";
 
 function Fxdb () {
 return (
 
 <div className="Project-card"> 
 <div className ="project-title-container"> 
-    <h1>FXDB </h1>
+    <h1 style={{letterSpacing: "2rem", fontWeight:"600"}}>FXDB </h1>
     <h2>The Guitar Effects Database</h2>
 </div>
 
@@ -35,8 +32,7 @@ return (
              <div className= "languageIcons">
             
                         <div className="project-icons">
-                            <img src ={ReactLogo} alt="icon" className="linkIcon" />
-                            <img src ={SQL} alt="icon" className="linkIcon" /> 
+                            <img src ={ReactLogo} alt="icon" className="linkIcon" /> 
                             <img src ={Rails} alt="icon" className="linkIcon" />
 
                             <br />
@@ -44,8 +40,6 @@ return (
                             <img src={GH} className="linkIcon" />
                         </a>
 
-                        
-                        <h2> Link to GitHub Repo</h2>
                         </div>
               </div>
               <Link to ="/projects"> Back to Projects Page</Link>
