@@ -11,6 +11,7 @@ function Projects() {
   return (
     <div className="carousel-container">
       <div className="slider">
+        
         <a id="slider-button" href="#slide-1">
           LW
         </a>

@@ -87,9 +87,6 @@ img {
   margin: 2rem;
 }
 
-.main-container {
-  background-position: center;
-}
 
 .main {
   border: 3rem solid #012c49;
@@ -100,6 +97,10 @@ img {
   margin: 5rem;
   background: linear-gradient(85deg, #ffe9ca 0%, #ffe9dd 100%);
   border-radius: 10px;
+}
+
+.main-container {
+  background-position: center;
 }
 
 .navbar {
@@ -196,44 +197,17 @@ grid-row: 1 span 2;
 }
 
 /* Fonts  */
+
+.aboutMe-Container h1 {
+  text-shadow: 1px 1px black;
+}
+
 h1 {
   color: #92dccd;
   text-shadow: 3px 2px #012c49;
   font-size: 65px;
   font-weight: 300;
   letter-spacing: 15px;
-}
-
-.navbar h4 {
-  font-size: 1.5rem;
-  font-weight:300
-}
-
-header h1 {
-  font-size: 3.4em;
-  letter-spacing: 3rem;
-  text-shadow: 1px 1px grey;
-  animation: intro 1s ease-in forwards;
-}
-
-header h3 {
-  font-size: 1.5em;
-}
-
-.project-text h1 {
-  font-size: 3em;
-}
-
-.project-text h3 {
-  font-size: 1rem;
-}
-
-.project-container h1 {
-  text-shadow: 1px 1px black;
-}
-
-.aboutMe-Container h1 {
-  text-shadow: 1px 1px black;
 }
 
 h2 {
@@ -248,19 +222,50 @@ h3 {
   letter-spacing: 0.6rem;
 }
 
+h4 {
+  color: #92dccd;
+  font-weight: 200;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+
+header h1 {
+  font-size: 3.4em;
+  letter-spacing: 3rem;
+  text-shadow: 1px 1px grey;
+  animation: intro 1s ease-in forwards;
+}
+
+header h3 {
+  font-size: 1.5em;
+}
+
+.navbar h4 {
+  font-size: 1.5rem;
+  font-weight:300;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.project-text h1 {
+  font-size: 3em;
+}
+
+.project-text h3 {
+  font-size: 1rem;
+}
+
+.project-container h1 {
+  text-shadow: 1px 1px black;
+}
+
 .project-container h3 {
   font-size: 35px;
 }
 
 .Project-card h3 {
   text-shadow: 1px 1px black;
-}
-
-h4 {
-  color: #92dccd;
-  font-weight: 200;
-  font-size: 25px;
-  text-decoration: none;
 }
 
 .contact-page h1,
