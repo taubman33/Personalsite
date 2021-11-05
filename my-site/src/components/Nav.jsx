@@ -9,8 +9,6 @@ return (
 <div className="navbar-container">
 
    <div className= "navbar">
-
-
           <Link to='/' className='nav-link'>
                <h4>Home</h4></Link>
           <Link to='/Projects' className='nav-link'>

@@ -16,10 +16,9 @@ function Wumb() {
       <div className="project-window">
         <div className="project-desc" style={{}}>
           <p>
-            Built with a fellow instructor and one of our previous student, WUMB
-            Listen pulls data from the UM Boston radio station, displaying the
-            song title, recording artist, length of the song, as well as the top
-            Youtube video. Users can search through the calendar and go through
+            Built with a fellow instructor and previous student, WUMB
+            Listen pulls data from the UM Boston radio station and links to the top 
+            Youtube video for that song. Users can search through the calendar and go through
             the times to find a Youtube video of that great song they heard
             driving earlier.
           </p>

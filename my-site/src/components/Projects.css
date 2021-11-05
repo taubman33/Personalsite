@@ -1,17 +1,18 @@
 .carousel-container {
-    height: 60vh;
+    height: 67vh;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   
   .slider {
     width: 87%;
     text-align: center;
     overflow: hidden;
-  
   }
+
   
   .slides {
     display: flex;
@@ -62,7 +63,7 @@
     width: 1.5rem;
     height: 1.5rem;
     background: #012c49;
-    border: 3px solid #80d0c7;
+    border: .5em solid #80d0c7;
     color: #80d0c7;
     padding: 2%;
     text-decoration: none;
@@ -82,8 +83,8 @@
 /*Carousel layout */
  .slide {
    display: flex;
-   flex-direction: column;
-   border: .3rem solid #80d0c7; 
+   flex-direction: column; 
+   border: .5rem solid #80d0c7; 
    background-color: #012c49;
    margin-bottom: 1rem;
  }
