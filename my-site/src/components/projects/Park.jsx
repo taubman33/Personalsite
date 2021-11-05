@@ -10,9 +10,10 @@ export default function Park () {
 return (
 
 <div className="Project-card"> 
+
+
 <div className ="project-title-container"> 
-    <h3>Park Safe </h3>
-    <h2>NYC Park Social Distancing App</h2>
+    <h1>Park Safe </h1>
 </div>
 
 
@@ -35,16 +36,14 @@ return (
                         <div className="project-icons">
                        
                             <img src ={ReactLogo} alt="icon" className="linkIcon" />
-                            <img src ={SQL}  alt="icon" className="linkIcon" /> 
                             <img src ={Rails} alt="icon" className="linkIcon" />
 
-                            <br />
                         <a href="https://github.com/taubman33/covidparkapp" target="_blank">
                             <img src={GH} alt="icon" className="linkIcon" />
                         </a>
 
                         
-                        <h2> Link to GitHub Repo</h2>
+                
                         </div>
               </div>
 

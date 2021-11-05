@@ -17,11 +17,11 @@ return (
 <div className= "footer-links"></div> 
 
 <a href="https://github.com/taubman33" target="_blank" alt="GHIcon">
-  <img src={GH} className="linkIcon" />
+  <img src={GH} className="footer-linkIcon" />
 </a> 
 
 <a href="https://www.linkedin.com/in/jeremy-taubman-23736460" target="_blank" alt="LIIcon">
-  <img src={LI} className="linkIcon" />
+  <img src={LI} className="footer-linkIcon" />
 </a>
 
 </div>
