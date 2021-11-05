@@ -10,6 +10,7 @@
   .slider {
     width: 87%;
     text-align: center;
+    align-items: center;
     overflow: hidden;
   }
 
