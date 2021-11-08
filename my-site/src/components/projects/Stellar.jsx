@@ -31,8 +31,8 @@ function Stellar() {
       <div className="languageIconContainer">
         <div className="languageIcons">
           <div className="project-icons">
-            <img src={ReactLogo} alt="icon" className="linkIcon" />
-            <img src={SQL} alt="icon" className="linkIcon" />
+            <img src={ReactLogo} alt="icon" className="linkIcon lang" />
+            <img src={SQL} alt="icon" className="linkIcon lang" />
             <a href="https://github.com/taubman33/Stellar" target="_blank">
               <img src={GH} alt="icon" className="linkIcon" />
             </a>

@@ -37,8 +37,8 @@ function Fxdb() {
       <div className="languageIconContainer">
         <div className="languageIcons">
           <div className="project-icons">
-            <img src={ReactLogo} alt="icon" className="linkIcon" />
-            <img src={Rails} alt="icon" className="linkIcon" />
+            <img src={ReactLogo} alt="icon" className="lang linkIcon" />
+            <img src={Rails} alt="icon" className="lang linkIcon" />
 
             <a href="https://github.com/taubman33/FXDB" target="_blank">
               <img src={GH} className="linkIcon" />

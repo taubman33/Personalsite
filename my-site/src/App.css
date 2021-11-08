@@ -352,7 +352,6 @@ p {
 @media only screen and (max-width: 800px) {
   .App {
     width: 100%;
-    background: red;
     /* text-align: center; */
   }
 
@@ -389,6 +388,8 @@ p {
     border: 1rem solid #012c49;
   }
 
+  
+
   .project-links h1 {
     font-size: 45px;
   }
@@ -400,6 +401,11 @@ p {
 
   .project-icons img {
     width: 20%;
+  }
+
+
+  .project-title-container h1{
+    font-size: 36px;
   }
 
 
@@ -427,7 +433,6 @@ p {
 @media only screen and (max-width: 600px) {
   .App {
     width: 100%;
-    background: yellow;
   }
 
   .header h1 {
@@ -438,6 +443,12 @@ p {
   .header h3 {
     font-size: 15px;
   }
+
+
+ .lang {
+   display: none;
+ } 
+
 
   .nav-link h4 {
     padding: 8px;
@@ -461,10 +472,6 @@ p {
     display: none;
   }
 
-
-  .slide {
-    background:"fuscia";
-  }
   .title-container {
     width: 100%;
   }

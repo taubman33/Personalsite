@@ -34,8 +34,8 @@ export default function Park() {
       <div className="languageIconContainer">
         <div className="languageIcons">
           <div className="project-icons">
-            <img src={ReactLogo} alt="icon" className="linkIcon" />
-            <img src={Rails} alt="icon" className="linkIcon" />
+            <img src={ReactLogo} alt="icon" className="lang linkIcon" />
+            <img src={Rails} alt="icon" className="lang linkIcon" />
 
             <a href="https://github.com/taubman33/covidparkapp" target="_blank">
               <img src={GH} alt="icon" className="linkIcon" />
