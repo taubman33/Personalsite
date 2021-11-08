@@ -86,7 +86,7 @@
   
   }
   .big {
-    width: 17%;
+    width: 27%;
   }
 
   .slide h1 {
@@ -107,7 +107,7 @@
   .carousel-icon:hover {
     transform: scale(1.4);
     margin-top: 1rem;
-    margin-bottom: 1rem ;
+    margin-bottom: 1.5rem ;
   }
   .slide p {
     color: #80d0c7;

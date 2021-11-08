@@ -19,9 +19,13 @@
 }
 
 .aboutMe-Container {
+  background: #012c49;
+  border: 7px solid #80d0c7;
   text-align: center;
   margin: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 4rem; 
+  
+  color: #80d0c7;
 }
 
 .city {
@@ -57,7 +61,7 @@ header {
   flex-direction: column;
   justify-content: center;
   background-color: #012c49;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 
@@ -125,7 +129,8 @@ img {
 
 .project-desc {
 background: #80d0c7;
-border: 1px solid #012c49;
+padding: 2rem;
+border: 5px solid #012c49;
 grid-row: 1 span 1;
 grid-row: 1 span 2;
 }
@@ -155,6 +160,11 @@ grid-row: 1 span 2;
   flex-wrap: wrap;
 }
 
+.project-title-container {
+  background: #012c49;
+  border: 1rem solid #012c49
+}
+
 .project-window {
   display: grid; 
   grid-template-columns: 1fr 1fr;
@@ -173,7 +183,7 @@ grid-row: 1 span 2;
 }
 
 #resume:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .resume-container {
@@ -199,11 +209,14 @@ grid-row: 1 span 2;
   text-shadow: 1px 1px black;
 }
 
+.aboutMe > h2 {
+  color: #80d0c7;
+}
+
 h1 {
   color: #92dccd;
-  text-shadow: 3px 2px #012c49;
   font-size: 65px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 15px;
 }
 
@@ -418,6 +431,9 @@ p {
     background-color: "purple";
   }
 
+  #resume:hover{
+    transform: scale(1.3project-desc);
+  }
 
   .title-container h1 {
     font-size: 45px;
