@@ -12,6 +12,7 @@ function Projects() {
     <div className="carousel-container">
       <div className="slider">
         
+
         <a id="slider-button" href="#slide-1">
           LW
         </a>
@@ -27,7 +28,10 @@ function Projects() {
         <a id="slider-button" href="#slide-5">
           ST
         </a>
+    
 
+
+    
         <div className="slides">
 
           <div className="slide" id="slide-1">
@@ -110,7 +114,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="gradient"></div>
+
       </div>
     </div>
   );
