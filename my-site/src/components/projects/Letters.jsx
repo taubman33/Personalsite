@@ -21,8 +21,7 @@ function Letters() {
             This project was built up myself and 3 of my students, after an
             activity writing "Letters to the next cohort" on our class's last
             day. Our students impart some wisdom, guidence and experience, to
-            our next batch of developers. Built on a Django back end with a
-            front end in React. 
+            our next batch of developers. 
           </p>
           </div>
 

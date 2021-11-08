@@ -54,7 +54,7 @@ function Projects() {
 
           <div className="slide" id="slide-2">
             <div className="carousel-text-container">
-              <h1> Student Letter </h1>
+              <h1> Student Letters </h1>
               <p>
                 {" "}
                 Letters written by our students on our final day of class to

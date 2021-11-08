@@ -20,7 +20,7 @@ export default function Park() {
             build a project that allowed us to rate and measure how safe various
             park zones in NYC were based on people's social distancing, and
             wearing of masks, assigning each zone a Color value based off its
-            score. Built with a React front end and a Ruby on Rails backend.{" "}
+            score.{" "}
           </p>
         </div>
 
