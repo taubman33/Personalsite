@@ -131,8 +131,9 @@ img {
 background: #80d0c7;
 padding: 2rem;
 border: 5px solid #012c49;
-grid-row: 1 span 1;
-grid-row: 1 span 2;
+display:flex;
+justify-content: center;
+align-items: center;
 }
 
 .ProjectIcon {
