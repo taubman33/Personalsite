@@ -31,7 +31,7 @@ function Projects() {
     
 
       <div className="warning">
-        <h4> Full-Stack Apps may be stuck in Load screens as back-ends need to be re-deployed </h4>
+        <h4 id="project-warning"> Full-Stack Apps may be stuck in Load screens as back-ends need to be re-deployed </h4>
       </div>
 
 
@@ -59,7 +59,7 @@ function Projects() {
           <div className="slide" id="slide-2">
             <div className="carousel-text-container">
               <h1> Student Letters </h1>
-              <p>
+              <p style={{paddingLeft: "2rem", paddingRight: "2rem"}}>
                 {" "}
                 Letters written by our students on our final day of class to
                 give our next class. <br /> Built in Django and React.

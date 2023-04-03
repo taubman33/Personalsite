@@ -22,9 +22,8 @@
   background: #012c49;
   border: 7px solid #80d0c7;
   text-align: center;
-  margin: 2rem;
+  margin: 6rem;
   padding-bottom: 4rem; 
-  
   color: #80d0c7;
 }
 
@@ -64,7 +63,9 @@ header {
   padding: 1rem;
 }
 
-
+.header-title {
+  font-size: 2rem;
+}
 
 img {
   width: 60%;
@@ -164,6 +165,11 @@ align-items: center;
 .project-title-container {
   background: #012c49;
   border: 1rem solid #012c49
+}
+
+#project-warning {
+  color: #012c49;
+  font-size: 2rem;
 }
 
 .project-window {
@@ -288,6 +294,9 @@ p {
   font-size: 18px;
 }
 
+
+
+
 /* Forms */
 
 /* form styles */
@@ -363,6 +372,8 @@ p {
   text-transform: none;
 }
 
+
+
 @media only screen and (max-width: 800px) {
   .App {
     width: 100%;
@@ -427,10 +438,6 @@ p {
     display: none; 
   }
 
-
-  .slide {
-    background-color: "purple";
-  }
 
   #resume:hover{
     transform: scale(1.3project-desc);

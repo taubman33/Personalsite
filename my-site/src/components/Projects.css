@@ -15,8 +15,10 @@
     overflow: hidden;
   }
 
+
   
   .slides {
+    height:100%;
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -52,9 +54,7 @@
     justify-content: center;
     align-items: center;
   }
-  .slides > div:target {
-  /*   transform: scale(0.8); */
-  }
+
 
   .slider > a {
     display: inline-flex;
@@ -74,15 +74,17 @@
   
 /*Carousel layout */
  .slide {
+  height: 60vh;
    display: flex;
    flex-direction: column; 
    border: .5rem solid #80d0c7; 
-   background-color: #012c49;
+   background-color: red;
    margin-bottom: 1rem;
  }
   .carousel-icon {
-    width: 35%;
+    width: 25%;
     border: 2px solid #80d0c7;
+    margin-bottom: 2rem;
   
   }
   .big {
@@ -114,59 +116,5 @@
     letter-spacing: .5em;
   }
   /* Don't need button navigation */
-  @supports (scroll-snap-type) {
-    .slider > a {
-      display: none;
-    }
-  }
 
-
-  @media only screen and (max-width: 900px) {
-    
-    .slide {
-      padding: 1.5rem;
-    }
-    .slides {
-      margin-top: 3rem;
-      flex-direction: column; 
-    }
-
-
-    .slides::-webkit-scrollbar-thumb { 
-    display: none;
-  }   
-    .slider > a {
-      display: none
-    }    
-
-    .carousel-text-container h1 {
-      letter-spacing: 5px;
-    }    
-
-    .carousel-icon {
-      margin-bottom: 2rem;
-      width:70%;
-    }
-
-    .carousel-text-container p {
-      letter-spacing: 5px;
-    }
-  }
-
-
-
-  @media only screen and (max-width: 600px) {
-
-
-    .carousel-text-container h1 {
-      font-size: 24px;
-    }  
-    
-    .carousel-text-container p {
-      font-size: 18px;
-    }  
-
-  }
-
-
-
+  
