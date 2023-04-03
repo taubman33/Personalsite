@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume1 from './assets/JeremyTaubmanResume.jpg'
+import Resume1 from './assets/resume1.jpg'
 
 
 function Resume () {
