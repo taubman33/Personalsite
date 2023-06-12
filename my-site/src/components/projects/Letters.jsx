@@ -26,7 +26,7 @@ function Letters() {
           </div>
 
         <div className="project-icon-container">
-        <a href="http://seir-letters.surge.sh/" target="_blank">
+        <a href="https://1130studentletters.surge.sh/" target="_blank">
           <img src={LW} className="ProjectIcon" alt="letters" />
           </a>
           </div>
