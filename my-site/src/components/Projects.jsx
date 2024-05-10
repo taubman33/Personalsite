@@ -20,7 +20,7 @@ function Projects() {
           SL
         </a>
         <a id="slider-button" href="#slide-3">
-          
+          PS
         </a>
         <a id="slider-button" href="#slide-4">
           FX
