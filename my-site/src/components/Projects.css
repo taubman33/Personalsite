@@ -11,6 +11,7 @@
   .slider {
     width: 87%;
     text-align: center;
+    display:flex;
     align-items: center;
     overflow: hidden;
   }
