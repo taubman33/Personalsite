@@ -498,6 +498,9 @@ p {
     width: 100%;
   }
 
+  .aboutMe-Container{
+    background-color: red;
+  }
   .header h1 {
     font-size: 50px;
     letter-spacing: 5px;
