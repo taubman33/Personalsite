@@ -31,7 +31,13 @@ function Projects() {
     
 
       <div className="warning">
-        <h4 id="project-warning"> Full-Stack Apps may be stuck in Load screens as back-ends need to be re-deployed </h4>
+        <h4 id="project-warning"> Full-Stack Apps may be stuck in Load screens as back-ends need to be re-deployed
+        
+        <br/>
+
+
+        Click on the project image to open up its information page!
+         </h4>
       </div>
 
 
