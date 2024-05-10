@@ -15,7 +15,7 @@ return (
         
         <br/>
         <br/>
-        Playing in bands for most of my life has taught the values of collaboration, and whether it is working with my students, playing jazz guitar, or learning different programming languages, I believe that with time and dedicated practice, anything is achievable. 
+        Playing music for most of my life has taught the values of collaboration, and whether it is working with my students, playing jazz guitar, or learning different programming languages, I believe that with time and dedicated practice, anything is achievable. 
         <br/>
         <br/>
         <div className = "pic-container">
