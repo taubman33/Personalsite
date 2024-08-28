@@ -10,10 +10,6 @@ return (
     
 <div className= "footer">
    
-
-
-
-  
 <div className= "footer-links"></div> 
 
 <a href="https://github.com/taubman33" target="_blank" alt="GHIcon">

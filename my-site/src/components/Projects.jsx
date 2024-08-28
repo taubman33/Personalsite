@@ -1,5 +1,4 @@
 import React from "react";
-import "./Projects.css";
 import { Link } from "react-router-dom";
 import SW from "./assets/Surgewindow.jpg";
 import FX from "./assets/FXDBbanner.jpg";
@@ -10,35 +9,46 @@ import W1 from "./assets/Wumb1.png";
 function Projects() {
   return (
     <div className="carousel-container">
+
+<div className="warning">
+        <h4 id="project-warning"> Full-Stack Apps may be stuck in Load screens as back-ends need to be re-deployed </h4>
+      </div>
+
+
       <div className="slider">
         
-
-        <a id="slider-button" href="#slide-1">
-          LW
+      <button className="slider-button">
+        <a className="slider-text" href="#slide-1">
+          WL
         </a>
-        <a id="slider-button" href="#slide-2">
+      </button>
+
+      <button className="slider-button">
+        <a className="slider-text" href="#slide-2">
           SL
         </a>
-        <a id="slider-button" href="#slide-3">
+      </button>
+
+      <button className="slider-button">
+        <a className="slider-text" href="#slide-3">
           PS
         </a>
-        <a id="slider-button" href="#slide-4">
+      </button>
+
+      <button className = "slider-button">
+        <a className="slider-text" href="#slide-4">
           FX
         </a>
-        <a id="slider-button" href="#slide-5">
+      </button>
+
+      <button className = "slider-button">
+        <a className="slider-text" href="#slide-5">
           ST
         </a>
-    
+      </button >
 
-      <div className="warning">
-        <h4 id="project-warning"> Full-Stack Apps may be stuck in Load screens as back-ends need to be re-deployed
-        
-        <br/>
-
-
-        Click on the project image to open up its information page!
-         </h4>
       </div>
+
 
 
     
@@ -46,7 +56,7 @@ function Projects() {
 
           <div className="slide" id="slide-1">
             <div className="carousel-text-container">
-              <h1> WUMB-Listen</h1>
+              <h1 className="project-title"> WUMB-Listen</h1>
               <p>
                 {" "}
                 Pulling Youtube videos from WUMB Radio playlist. <br /> Built on
@@ -64,7 +74,7 @@ function Projects() {
 
           <div className="slide" id="slide-2">
             <div className="carousel-text-container">
-              <h1> Student Letters </h1>
+              <h1 className="project-title"> Student Letters </h1>
               <p style={{paddingLeft: "2rem", paddingRight: "2rem"}}>
                 {" "}
                 Letters written by our students on our final day of class to
@@ -81,21 +91,24 @@ function Projects() {
 
           <div className="slide" id="slide-3">
             <div className="carousel-text-container">
-              <h1>Park Safe</h1>
+              <h1 className="project-title">Park Safe</h1>
               <p>
                 {" "}
                 A helpful aid for exploring New York City parks during the COVID
                 19 scare <br /> Built in React and Ruby on Rails
               </p>
             </div>
+            <div className = "project-container">
             <Link to="/Projects/Park">
               <img src={PW} alt="icon" className="carousel-icon big" />
             </Link>
+            </div>
+          </div>
           </div>
 
           <div className="slide" id="slide-4">
             <div className="carousel-text-container">
-              <h1> FXDB</h1>
+              <h1 className="project-title" > FXDB</h1>
               <p>
                 {" "}
                 The Guitar FX Database <br /> Built in React and Ruby on Rails
@@ -110,7 +123,7 @@ function Projects() {
 
           <div className="slide" id="slide-5">
             <div className="carousel-text-container">
-              <h1> Stellar</h1>
+              <h1 className="project-title" > Stellar</h1>
               <p>
                 {" "}
                 Mock version of Stellar Travel site <br /> Built on the MERN
@@ -125,8 +138,7 @@ function Projects() {
           </div>
         </div>
 
-      </div>
-    </div>
+      
   );
 }
 export default Projects;

@@ -1,11 +1,10 @@
 import React from "react";
-import {Route } from "react-router-dom";
+import {Route, Routes } from "react-router-dom";
 
 import Resume from "./Resume";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import Dummy from "./Dummy"
 import Bottom from "./projects/Bottom";
 import Fxdb from "./projects/Fxdb";
 import Stellar from "./projects/Stellar";
@@ -20,20 +19,19 @@ export default function Main() {
   return (
     <div className="main-container">
       <div className="main">
-        <Route exact path="/" render={AboutMe} />
-        <Route exact path="/Resume" render={Resume} />
-        <Route exact path="/Projects" render={Projects} />
-        <Route exact path="/Contact" render={Contact} />
-        
-        <Route exact path="/dummy" render={Dummy} />
-
-        <Route exact path="/Projects/Stellar" component={Stellar} />
-        <Route exact path="/Projects/Fxdb" component={Fxdb} />
-        <Route exact path="/Projects/Bottom" component={Bottom} />
-        <Route exact path="/Projects/Comedian" component={Comedian} />
-        <Route exact path="/Projects/Park" component={Park} />
-        <Route exact path="/Projects/Letters" component={Letters} />
-        <Route exact path="/Projects/Wumb" component={Wumb} />
+        <Routes>
+          <Route exact path="/" element={<AboutMe/>} />
+          <Route exact path="/Resume" element={<Resume/>} />
+          <Route exact path="/Projects" element={<Projects/>} />
+          <Route exact path="/Contact" element={<Contact/>} />
+          <Route exact path="/Projects/Stellar" element={<Stellar/>} />
+          <Route exact path="/Projects/Fxdb" element={<Fxdb/>} />
+          <Route exact path="/Projects/Bottom" element={<Bottom/>} />
+          <Route exact path="/Projects/Comedian" element={<Comedian/>} />
+          <Route exact path="/Projects/Park" element={<Park/>} />
+          <Route exact path="/Projects/Letters" element={<Letters/>} />
+          <Route exact path="/Projects/Wumb" element={<Wumb/>} />
+        </Routes>
       </div>
       <div className="city-image">
         <img src={City} />
