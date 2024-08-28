@@ -16,7 +16,6 @@ function Projects() {
 
 
       <div className="slider">
-        
       <button className="slider-button">
         <a className="slider-text" href="#slide-1">
           WL
@@ -50,8 +49,6 @@ function Projects() {
       </div>
 
 
-
-    
         <div className="slides">
 
           <div className="slide" id="slide-1">
