@@ -14,9 +14,6 @@ export default function Contact() {
                     justifyContent: "center", 
                     paddingTop: "1vh"}}>
 
-
-         
-
         <form id="fs-frm" 
               name="simple-contact-form" 
               accept-charset="utf-8" 
